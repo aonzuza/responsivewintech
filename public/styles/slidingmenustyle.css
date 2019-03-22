@@ -1,0 +1,72 @@
+.sliding-menu{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  right:0;
+  /* left: 100%;
+  /* background-color: #111; */
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+
+  font-size: 1.2rem;
+
+}
+.sliding-menu ul{
+  margin-left: 30px;
+}
+.sliding-menu ul li{
+  padding-top: 8px;
+}
+.sliding-menu ul li a{
+  color:black;
+  text-decoration: none;
+
+}
+
+.sliding-menu ul li a::after{
+  display: none;
+}
+
+
+.slide-submenu-highlight{
+  font-weight: 500;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+  .sliding-menu{
+    display: none;
+  }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+ }

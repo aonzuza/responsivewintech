@@ -1,0 +1,417 @@
+
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Kanit;
+}
+.body-wrapper{
+  margin-top: 40px;
+}
+
+.flex-even {
+  flex: 1;
+}
+.bg-red{
+  background-color: red;
+}
+.bg-yellow{
+  background-color: yellow;
+}
+.bg-green{
+  background-color: green;
+}
+.bg-blue{
+  background-color: blue;
+}
+.bg-pink{
+  background-color: pink;
+}
+
+.img-bw{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+}
+#topbar-company-info{
+  margin-top: 20px;
+  display: none;
+}
+#topbar-company-info a{
+  color:black;
+}
+.top-bar-logo{
+  width: 220px;
+  height: auto;
+}
+#topbar-link-wrapper a{
+  margin-right: 10px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+
+/* footer  */
+
+.footer-wrapper{
+  background-color: #0e1b2b;
+  padding: 10px 30px;
+  font-size: 0.9rem;
+  display: none;
+  font-weight: 200;
+}
+.footer-wrapper a{
+  color:white;
+  line-height: 1.6rem;
+}
+.footer-col{
+  padding: 10px 15px;
+}
+
+
+.footer-first-col{
+  color:white;
+}
+
+
+.tb-social{
+  margin-top: 10px;
+  width: 60%;
+}
+.tb-social td{
+  /* border: solid yellow 1px; */
+}
+
+.footer-icon{
+  width: 30%;
+  height: auto;
+}
+
+
+/* about us */
+.aboutus-img-tiles-wrapper{
+  width: auto;
+  /* white-space: nowrap; */
+  /* margin-left: 20%; */
+  cursor: pointer;
+}
+.home-image-logo{
+  width: 170px;
+  height: auto;
+}
+.aboutus-img-tiles-wrapper img{
+  width: 15%;
+  height: auto;
+  margin: 2px 0px;
+  /* width: 10.0%;
+  height: auto;
+  float:left;
+  margin: 5px; */
+}
+.aboutus-certificates{
+  margin-top: 35px;
+}
+
+.aboutus-certificates ul li a{
+  color: black;
+  line-height: 2rem;
+
+}
+.project-frame-wrapper{
+  width: 80%;
+  margin-left: 50px;
+  height: 331px;
+  background-color: red;
+}
+.project-frame-wrapper img{
+  width: 100%;
+  /* height: 400px; */
+  height: 100%;
+
+}
+
+
+/* downloads */
+.downloads-page-wrapper{
+  padding-bottom: 100px;
+
+}
+.downloads-container-wrapper{
+  padding-top: 25px;
+}
+.downloads-item-wrapper img{
+  width: 100%;
+  height: auto;
+}
+.downloads-text-wrapper{
+  margin-top:10px;
+}
+.download-link-wrapper a{
+  color:grey;
+}
+
+/*---------------contact us--------------------  */
+.contactus-wrapper{
+  padding-bottom: 70px;
+}
+.contactus-header{
+  margin-bottom: 50px;
+}
+
+.contactus-tb-company{
+
+}
+.contactus-tb-company h4{
+    font-size: 20px;
+}
+.contactus-tb-company td{
+  /* border:solid black 1px; */
+  vertical-align: top;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.contactus-QR{
+  width: 100px;
+  height: auto;
+}
+.google-map-wrapper{
+  margin-top: 30px;
+}
+.contactus-send-email{
+  color:white;
+  background-color: #202b62;
+  border:none;
+  padding: 5px 10px;
+}
+.contact-form-wrapper{
+  /* border-left: solid black 1px; */
+}
+
+/*  home-automation */
+.homeautomation-header{
+   width: 90%;
+   margin-right: 10%;
+
+}
+.homeautomation-header img{
+   width: 100%;
+   height: auto;
+}
+.homeautomation-img-wrapper:hover{
+    cursor: pointer;
+}
+.video-section-wrapper{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  /* background-color: red; */
+}
+/* .homeautomation-main-video-wrapper iframe{
+  min-height: 300px;
+} */
+/* .homeautomation-video-list img{
+  width: 50%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 0px;
+} */
+.homeautomation-img-wrapper{
+  width: 40%;
+  margin-left: 5%;
+  margin-top:10px;
+}
+.homeautomation-img-wrapper img{
+  width: 100%;
+}
+
+.homeautomation-video-text-wrapper{
+  margin-top: 30px;
+}
+.homeautomation-video-text-wrapper h2{
+  font-size: 1.3rem;
+}
+.homeautomation-video-text-wrapper p{
+  font-size: 0.9rem;
+}
+
+/*----------------------oem start----------------------------  */
+.oem-page-wrapper{
+  padding-bottom: 40px;
+}
+.oem-header-wrapper{
+  width: 90%;
+  margin-right:10%;
+}
+.oem-header-wrapper img{
+  width: 100%;
+  height: auto;
+}
+.oem-second-wrapper{
+  margin-top: 20px;
+}
+
+.oem-text-wrapper{
+  background-color: grey;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 5%;
+  padding: 20px 20px;
+
+}
+.oem-text-wrapper p{
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+/*----------------------oem end----------------------------  */
+
+/*-----------------------start steel----------------------  */
+.steel-first-wrapper{
+  width: 95%;
+  margin-right: 5%;
+  background-color: grey;
+}
+.steel-first-text-wrapper{
+  width: 50%;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  /* background-color: yellow; */
+}
+.steel-first-text-wrapper div{
+    width: 80%;
+    /* background-color: red; */
+    margin-left: 10%;
+}
+.steel-first-image-wrapper{
+  width: 50%;
+}
+.steel-first-text-wrapper h2{
+    font-size:2.0 rem;
+}
+.steel-first-text-wrapper p{
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+
+
+.steel-second-wrapper{
+  width: 95%;
+  margin-left: 5%;
+  background-color: grey;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.steel-second-text-wrapper{
+  width: 50%;
+}
+.steel-second-text-wrapper div{
+    width: 80%;
+    /* background-color: red; */
+    margin-left: 10%;
+}
+.steel-second-image-wrapper{
+  width: 50%;
+}
+.steel-second-text-wrapper p{
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+/*----------------------end steel-----------------------------  */
+.products-page-wrapper{
+  margin-bottom: 50px;
+}
+.product-first-wrapper{
+  width: 95%;
+  margin-right: 5%;
+}
+.product-row-wrapper{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+/*  products */
+.product-item-wrapper{
+  width: 15%;
+  margin-left: 4.1%;
+  border:solid transparent 2px;
+  /* background-color: yellow; */
+}
+.product-item-wrapper:hover{
+  cursor:pointer;
+  border: solid #4e4e4e 2px;
+}
+.product-item-wrapper:hover img{
+  width: 150px;
+  height: 150px;
+}
+
+.product-image-wrapper{
+  width: 150px;
+  height: 150px;
+}
+.product-image-wrapper img{
+  width: 100%;
+  height: 100%;
+}
+/* .product-image-wrapper{
+
+} */
+
+.product-name-wrapper{
+  margin-top: 10px;
+}
+.product-modal-body-wrapper{
+  width: 100%;
+}
+
+.residentiallock-page-wrapper{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.residentiallock-page-wrapper h2{
+  font-size: 1.4rem;
+}
+.residentiallock-page-wrapper p{
+  font-size: 1rem;
+}
+.residentiallock-product-li{
+  font-weight: 300;
+}
+.smart-lock-icon{
+  width: 25px;
+  height: 25px;
+}
+.residentiallock-example1-wrapper{
+    /* text-align: center; */
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 30px;
+}
+.residentiallock-example-img-wrapper{
+  margin-top: 30px;
+  width: 25%;
+  display: inline-block;;
+  /* margin-left:16% ; */
+  margin-left: 30px;
+}
+.residentiallock-example-img-wrapper img{
+  width: 100%;
+  height: auto;
+
+}
+.residentiallock-description-wrapper{
+  margin-top: 30px;
+}
+.tb-residentiallock-spec{
+  margin-top: 30px;
+  width: 100%;
+}
+.tb-residentiallock-spec td{
+  border:solid black 1px;
+  padding: 5px;
+}
+
+.residentiallock-second-wrapper{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}

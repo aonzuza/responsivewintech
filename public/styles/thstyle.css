@@ -1,0 +1,491 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Kanit;
+}
+/* .body-wrapper{
+  margin-top: 40px;
+} */
+
+.flex-even {
+  flex: 1;
+}
+.bg-red{
+  background-color: red;
+}
+.bg-yellow{
+  background-color: yellow;
+}
+.bg-green{
+  background-color: green;
+}
+.bg-blue{
+  background-color: blue;
+}
+.bg-pink{
+  background-color: pink;
+}
+
+.img-bw{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+}
+.topbar{
+  display: none;
+}
+#topbar-company-info{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: none;
+}
+#topbar-company-info a{
+  color:black;
+}
+.top-bar-logo{
+  width: 200px;
+  height: auto;
+}
+#topbar-link-wrapper a{
+  margin-right: 10px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+/*  mobile topbar */
+.mobile-topbar{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 10px;
+  transition: 0.5s;
+}
+.mobile-top-bar-logo{
+  width: 120px;
+  height: auto;
+  margin-right: 15px;
+}
+.mobile-topbar-items{
+  width: 25px;
+  height: auto;
+}
+.mobile-topbar a:hover{
+    text-decoration: none;
+}
+
+/*  end mobile topbar */
+
+/* footer  */
+
+.footer-wrapper{
+  background-color: #0e1b2b;
+  padding: 10px 30px;
+  font-size: 0.9rem;
+  display: none;
+  font-weight: 200;
+}
+.footer-wrapper a{
+  color:white;
+  line-height: 1.6rem;
+}
+.footer-col{
+  padding: 10px 15px;
+}
+
+
+.footer-first-col{
+  color:white;
+}
+
+
+.tb-social{
+  margin-top: 10px;
+  /* width: 60%; */
+}
+.tb-social td{
+  /* border: solid yellow 1px; */
+}
+
+.footer-icon{
+  /* width: 30%;
+  height: auto; */
+  height: 100%;
+  width: auto;
+}
+
+/* ---------------start mobile footer ------------------ */
+.mobile-footer{
+  background-color: #0e1b2b;
+}
+.mobile-footer-wrapper{
+  /* background-color: red; */
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 378px;
+}
+.mobile-footer-logo-wrapper{
+  width: 30%;
+  margin-right: 3%;
+  /* background-color: red; */
+}
+.mobile-footer-social-wrapper{
+  width: 30%;
+  margin-right: 3%;
+  /* background-color: yellow; */
+}
+.mobile-footer-company-details{
+  width: 33%;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  /* background-color: blue; */
+  color:white;
+  /* background-color: green; */
+}
+
+/*  */
+.mobile-footer-social-icon{
+  width: 25%;
+  margin-left: 6.25%;
+}
+
+/* .mobile-footer-logo-wrapper{
+  width: 60px;
+  height: auto;
+}
+.mobile-footer-social-wrapper{
+  width: 25px;
+  height: auto;
+}
+.mobile-footer-company-details{
+  color:white;
+  font-size: 0.8rem;
+  width: 100px;
+} */
+
+
+/*---------------end mobile fotter  */
+
+/* ------------------------start contact us------------------------ */
+.contactus-wrapper{
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.contactus-compny-details{
+  margin-top: 30px;
+  font-size: 1rem;
+}
+.contactus-compny-details h2{
+  font-size: 1.2rem;
+}
+
+.contactus-QR{
+  display:none;
+}
+.contact-form-wrapper{
+  /* margin-top: 30px; */
+  display: none;
+}
+.google-map-wrapper{
+  margin-top: 30px;
+  position:relative;
+  padding-top:56.25%;
+}
+.google-map-wrapper iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+.google-map-link-wrapper{
+  margin-top: 20px;
+}
+
+.contactus-send-email{
+  color:white;
+  background-color: #202b62;
+  border:none;
+  padding: 5px 10px;
+}
+
+/*-------------------------end contact us------------------------------ */
+
+
+/*-----------------------start home-----------------------------*/
+#wowslider-container1
+  padding-top: 60px;
+}
+.home-second-wrapper{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.home-second-wrapper p{
+  font-size: 1.1rem;
+}
+.home-image-logo{
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  width: 100px;
+}
+.home-video-wrapper{
+  display: none;
+}
+
+/*-------------------------end home-----------------------------  */
+
+/*-------------------downloads ------------------------------------  */
+.downloads-page-wrapper{
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.downloads-header{
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+.downloads-item-wrapper{
+  /* background-color: red; */
+  /* margin-top: 10px; */
+  margin-bottom: 30px;
+}
+.downloads-image-wrapper{
+  /* width: 90%;
+  margin-left: 5%; */
+  /* background-color: red; */
+}
+.downloads-image-wrapper img{
+  width: 100%;
+  height: auto;
+
+}
+.downloads-text-wrapper{
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+}
+.download-link-wrapper{
+  text-align: center;
+}
+.download-link-wrapper a{
+   color:grey;
+}
+
+/*--------------------end downloads------------------------------------*/
+
+
+/*----------------start about us---------------------------  */
+
+.aboutus-page-wrapper{
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.aboutus-page-wrapper h1{
+  font-size: 1.5rem;
+  /* font-weight: normal; */
+}
+.aboutus-page-wrapper h2{
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+.aboutus-page-wrapper h3{
+  font-size: 1.1rem;
+}
+.aboutus-page-wrapper p{
+  font-size: 1rem;
+}
+
+.aboutus-header{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.aboutus-header h2{
+  width: 85%;
+  margin-left: 15%;
+}
+.aboutus-profile-text-wrapper{
+  margin-top: 20px;
+}
+.aboutus-certificate-text-wrapper{
+  margin-top: 20px;
+}
+.aboutus-certificate-text-wrapper a{
+  color:black;
+}
+.aboutus-img-tiles-wrapper{
+  margin-top: 20px;
+}
+.aboutus-tile{
+  width: 12.5%;
+  height: auto;
+  float: left;
+  border: solid white 1px;
+}
+
+/* ------------start products */
+
+.product-item-wrapper{
+  margin-top: 20px;
+  border: solid transparent 2px;
+}
+.product-item-wrapper:hover{
+  border: solid grey 2px;
+  cursor: pointer;
+}
+.product-name-wrapper{
+  margin-top: 10px;
+}
+.product-second-wrapper{
+  padding-bottom: 80px;
+}
+/* ----------------end products */
+
+
+/*---------------start residential lock--------------  */
+
+.residentiallock-page-wrapper{
+  padding-top: 80px;
+}
+.residentiallock-page-wrapper h2{
+  font-size: 1.4rem;
+}
+.residentiallock-page-wrapper p{
+  font-size: 1rem;
+}
+.residentiallock-product-li{
+  font-weight: 300;
+}
+.smart-lock-icon{
+  width: 25px;
+  height: 25px;
+}
+.residentiallock-example1-wrapper{
+    /* text-align: center; */
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 30px;
+}
+.residentiallock-example-img-wrapper{
+  margin-top: 30px;
+  width: 25%;
+  display: inline-block;;
+  /* margin-left:16% ; */
+  margin-left: 30px;
+}
+.residentiallock-example-img-wrapper img{
+  width: 100%;
+  height: auto;
+
+}
+.residentiallock-description-wrapper{
+  margin-top: 30px;
+}
+.tb-residentiallock-spec{
+  margin-top: 30px;
+  width: 100%;
+}
+.tb-residentiallock-spec td{
+  border:solid black 1px;
+  padding: 5px;
+}
+
+.residentiallock-second-wrapper{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+
+
+/*--------  home-automation ---------------*/
+
+/*  home-automation */
+.homeautomation-header{
+   width: 100%;
+   /* margin-right: 10%; */
+
+}
+.homeautomation-header img{
+   width: 100%;
+   height: auto;
+}
+.homeautomation-img-wrapper:hover{
+    cursor: pointer;
+}
+.video-section-wrapper{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  /* background-color: red; */
+}
+
+.homeautomation-img-wrapper{
+  width: 40%;
+  margin-left: 5%;
+  margin-top:10px;
+}
+.homeautomation-img-wrapper img{
+  width: 100%;
+}
+
+.homeautomation-video-text-wrapper{
+  margin-top: 30px;
+}
+.homeautomation-video-text-wrapper h2{
+  font-size: 1.3rem;
+}
+.homeautomation-video-text-wrapper p{
+  font-size: 0.9rem;
+}
+/* -------------end home automation */
+
+/*-------------oem-header-wrapper  */
+.oem-page-wrapper{
+  padding-top: 80px;
+  /* padding-bottom: 80px; */
+}
+
+.oem-header-wrapper{
+  /* padding-top: 80px; */
+}
+.oem-text-wrapper{
+
+  /* height: 500px; */
+  padding: 20px 40px;
+  width: 100%;
+  /* margin-top: 40px; */
+}
+
+/*  -----------steel pipe---------*/
+.steel-page-wrapper{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.steep-page-first-wrapper{
+  width: 100%;
+  height: auto;
+}
+
+.steep-page-second-wrapper{
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+}
+
+/*---------steel door -------- */
+.steeldoor-page-wrapper{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.steeldoor-second-row-wrapper{
+  padding-top: 40px;
+}
+.steepdoor-second-text-wrapper{
+  padding-top: 20px;
+  height: 100%;
+  /* background-color: red; */
+
+}

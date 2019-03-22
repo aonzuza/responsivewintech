@@ -1,0 +1,213 @@
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .contactus-QR{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    max-width: 120px;
+    /* display:block;
+    width: 50%;
+    background-color: red;
+    text-align: right; */
+  }
+
+  .mobile-footer-wrapper{
+    /* background-color: red; */
+    width: 80%;
+    max-width: 447px;;
+  }
+
+  .aboutus-page-wrapper h2{
+    font-size: 1.4rem;
+  }
+  .aboutus-page-wrapper h3{
+    font-size: 1.3rem;
+  }
+  .aboutus-page-wrapper p{
+    font-size: 1.1rem;
+  }
+
+  .homeautomation-img-wrapper{
+    width: 30%;
+    margin-left: 2.5%;
+  }
+  .homeautomation-video-text-wrapper h2{
+    font-size: 1.4rem;
+  }
+  .homeautomation-video-text-wrapper p{
+    font-size: 1.0rem;
+  }
+
+  .steep-page-second-wrapper{
+    margin-top:60px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .home-container-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .home-video-wrapper{
+    display: block;
+  }
+  .home-second-wrapper{
+    margin-top: 0px;
+
+  }
+  .home-second-wrapper p{
+    font-size: 0.8rem;
+
+  }
+  .home-image-logo{
+
+    /* margin-bottom: 20px; */
+    width: 150px;
+  }
+
+
+  .aboutus-page-wrapper h2{
+    font-size: 1.5rem;
+  }
+
+
+  .homeautomation-img-wrapper{
+    width: 20%;
+    margin-left: 4%;
+  }
+
+  .homeautomation-video-text-wrapper h2{
+    font-size: 1.5rem;
+  }
+  .homeautomation-video-text-wrapper p{
+    font-size: 1.1rem;
+  }
+
+  .oem-page-wrapper{
+    padding-top: 0px;
+    /* padding-bottom: 80px; */
+  }
+  .oem-text-wrapper{
+      margin-top: 40px;
+      /* width: 50%; */
+      width:490px;
+      margin-bottom: 80px;
+      background-color: #dcdbdb;
+      padding: 80px 40px;
+  }
+
+  .steeldoor-page-wrapper{
+    padding-top: 20px;
+  }
+  .steep-page-second-wrapper{
+    margin-top:80px;
+  }
+
+  .steeldoor-second-row-wrapper{
+    padding-top: 80px;
+  }
+  .steepdoor-second-text-wrapper{
+    padding-top: 0px;
+    /* width: 90%; */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #wowslider-container1{
+    padding-top: 0px;
+  }
+  .contactus-wrapper{
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+  .contact-form-wrapper{
+    /* margin-top: 30px; */
+    display: block;
+    margin-top: 30px;
+  }
+
+  .footer-wrapper{
+    display: block;
+  }
+  .topbar{
+    display: block;
+  }
+  /* big screen hide topbar footer for mobiles */
+  .mobile-topbar{
+    display: none;
+  }
+  .mobile-footer{
+    display: none;
+  }
+  .home-second-wrapper{
+    padding-left: 80px;
+  }
+
+  .home-second-wrapper p{
+    font-size: 1rem;
+  }
+
+  .downloads-page-wrapper{
+    padding-top: 30px;
+  }
+
+  .residentiallock-page-wrapper{
+    padding-top: 20px;
+  }
+
+  .homeautomation-img-wrapper{
+    width: 20%;
+    margin-left: 0%;
+  }
+
+  .homeautomation-video-text-wrapper{
+    margin-top: 0px;
+  }
+
+
+  .homeautomation-img-wrapper{
+    width: 20%;
+  }
+
+
+  .aboutus-page-wrapper{
+    padding-top: 0px;
+  }
+
+
+  .steel-page-wrapper{
+    padding-top: 0px;
+    padding-bottom: 80px;
+  }
+
+  .steep-page-second-wrapper{
+    margin-top:140px;
+  }
+
+  .steepdoor-second-text-wrapper{
+
+    padding-left: 60px;
+    padding-right: 60px;
+
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+ }

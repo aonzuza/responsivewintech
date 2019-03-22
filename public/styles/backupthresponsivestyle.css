@@ -1,0 +1,105 @@
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .homeautomation-img-wrapper{
+    width: 30%;
+    margin-left: 2.5%;
+  }
+  .homeautomation-video-text-wrapper h2{
+    font-size: 1.4rem;
+  }
+  .homeautomation-video-text-wrapper p{
+    font-size: 1.0rem;
+  }
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .homeautomation-img-wrapper{
+    width: 20%;
+    margin-left: 4%;
+  }
+
+  .homeautomation-video-text-wrapper h2{
+    font-size: 1.5rem;
+  }
+  .homeautomation-video-text-wrapper p{
+    font-size: 1.2rem;
+  }
+
+  .oem-text-wrapper p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  #topbar-link-wrapper{
+    padding-left: 80px;
+    padding-top: 20px;
+  }
+
+  .footer-wrapper{
+    display: block;
+  }
+  .homeautomation-img-wrapper{
+    width: 20%;
+    margin-left: 0%;
+  }
+
+  .homeautomation-video-text-wrapper{
+    margin-top: 0px;
+  }
+
+
+  .homeautomation-img-wrapper{
+    width: 20%;
+  }
+  .oem-text-wrapper{
+    width: 40%;
+    margin-left: 0%;
+
+  }
+  .oem-text-wrapper p{
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+
+  /* .oem-text-wrapper {
+    max-width: 487px;
+    width:50%;
+    margin-left: 0%;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .oem-text-wrapper p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+  } */
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+ }
