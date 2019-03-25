@@ -62,10 +62,10 @@
             </div>
 
             <p>
-              Let's dress up your door with our crafted items. We choose the best materials, then meticulously design and produce the products to meet your expectation in both functionality and style.
+              @lang('home.text1')
             </p>
             <p style="font-weight:bold">
-                Enjoy mixing and matching with a variety of sample, smart and stylish products. Have fun!!
+                @lang('home.text2')
             </p>
 
       </div>

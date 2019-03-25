@@ -9,7 +9,7 @@
     <div class="container">
       <div class="row">
             <div class="col-lg-6">
-                <h2 class="company-profile-section-sm">ประวัติบริษัท</h2>
+                <h2 class="company-profile-section-sm">@lang('aboutus.companyheader')</h2>
             </div>
             <div class="col-lg-6">
 
@@ -37,19 +37,13 @@
 
             <div class="aboutus-profile-text-wrapper">
 
-              <h2 class="d-none d-lg-block company-profile-section-lg">ประวัติบริษัท</h2>
-              <h3>เราเป็นผู้เชี่ยวชาญด้านฮาร์ดแวร์</h3>
+              <h2 class="d-none d-lg-block company-profile-section-lg">@lang('aboutus.companyheader')</h2>
+              <h3>@lang('aboutus.companysubheader')</h3>
               <p>
-                  บริษัท  วินเทค  แมนูแฟคเจอริ่ง จำกัด เป็นหนึ่งในผู้นำด้านการผลิตสินค้าประเภทอุปกรณ์ประตูและหน้าต่าง ได้แก่ กลอนประตู บานพับ ลูกบิด มือจับ
-                  และปุ่มจับของประเทศไทย ภายใต้เครื่องหมายการค้า VECO รวมทั้งรับสั่งผลิตให้แก่ผลิตภัณฑ์ที่มีชื่อเสียงมากมายทั้งของไทยและต่างประเทศ ด้วยประสบการณ์กว่า 10 ปี
-                  และคุณภาพในการผลิตสินค้าอันเป็นที่ยอมรับ รวมทั้งระบบการจัดการที่มีมาตรฐาน ซึ่งได้รับการรองรับโดย ISO9001:2008 ทั้งยังคัดสรรแต่วัตถุดิบคุณภาพดี ผ่านกระบวนการผลิตที่ทันสมัย
-                  โดยพนักงานที่มีความเชี่ยวชาญ พร้อมทั้งหน่วยงานออกแบบ และพัฒนาผลิตภัณฑ์อย่างต่อเนื่อง เพื่อความสวยงามและคงทนในการใช้งาน
+                  @lang('aboutus.companydetails1')
               </p>
               <p>
-                ในปี 2561 เราได้ร่วมทุนกับบริษัทมิวา ล็อก ซึ่งเป็นบริษัทล็อกอันดับ 1 ในประเทศญี่ปุ่น
-                เพื่อพัฒนาศักยภาพในการผลิตและยกระดับมาตรฐานของผลิตภัณฑ์ วิศวกรของมิวา ล็อกใช้เวลากว่า 2 ปี
-                ในการศึกษาการใช้งานและความต้องการของลูกค้าในทุกๆรายละเอียด และคิดค้นผลิตภัณฑ์ล็อกแบบใหม่ที่มี Human Touch Technology ขึ้น
-                ซึ่งจะทำให้การใช้งานล็อกของคุณง่ายและนุ่มนวลแบบที่ไม่เคยรู้สึกมาก่อน เชิญมาสัมผัสความใส่ใจของเราได้ด้วยตัวคุณเอง
+                  @lang('aboutus.companydetails2')
               </p>
 
             </div>
@@ -66,7 +60,7 @@
       <div class="container">
         <div class="row">
               <div class="col-lg-6">
-                  <h2 class="certificate-section">ใบรับรองคุณภาพ</h2>
+                  <h2 class="certificate-section">@lang('aboutus.certificatesheader')</h2>
               </div>
               <div class="col-lg-6">
 
@@ -93,12 +87,9 @@
             <div class="col-lg-6 order-lg-1">
                   <div class="aboutus-certificate-text-wrapper">
 
-                    <h1>ทำไมต้อง วินเทค ?</h1>
+                    <h1>@lang('aboutus.certificatessubheader')</h1>
                     <p>
-                        เราเป็นผู้เชี่ยวชาญเกี่ยวกับโลหะอย่างแท้จริง ด้วยบุคลากรที่มีประสบการณ์มากกว่า 10 ปี เราให้คำแนะนำ ออกแบบ และทำงานร่วมกับลูกค้าในการผลิตสินค้าเพื่อตอบสนองความต้องการที่หลากหลาย
-                        โรงงานของเราได้รับการรับรองมาตรฐานจากสถาบันชั้นนำ เช่น  มาตรฐาน ISO9001:2008
-                        และมาตรฐานผลิตภัณฑ์อุตสาหกรรม(มอก.)
-                        ลูกค้าจึงมั่นใจได้ว่าเราใส่ใจในการผลิตและผลิตภัณฑ์ของเราเป็นสินค้าที่มีคุณภาพทุกชิ้น
+                        @lang('aboutus.certificatesdetails')
                     </p>
                     <div class="container-fluid">
 
@@ -151,7 +142,7 @@
   <div class="container">
     <div class="row">
           <div class="col-lg-6">
-              <h2 class="project-section" >ผลงานที่ผ่านมา</h2>
+              <h2 class="project-section" >@lang('aboutus.projectheader')</h2>
           </div>
           <div class="col-lg-6">
 

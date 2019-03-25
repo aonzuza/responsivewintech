@@ -11,6 +11,17 @@
 |
 */
 
+
+Route::get('/changelang', function () {
+  
+   $lang =  (Session::get('locale') == 'en') ? 'th' : 'en';
+   Session::put('locale', $lang);
+   return redirect()->back();
+
+});
+
+
+
 //  -------------- Thai routes --------------------//
 Route::get('/', function () {
     return view('TH/home');
@@ -62,5 +73,9 @@ Route::get('/residentiallock', function () {
 Route::post('/contactus',[
     'uses' => 'ContactusController@sendMail',
 ]);
+
+Route::get('/test', function () {
+    return view('TH/test');
+});
 
 // ---------------------end thai route----------------/

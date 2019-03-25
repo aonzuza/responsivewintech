@@ -55,24 +55,24 @@
                       <col>
                       <tr>
                         <td colspan="3">
-                            <h2>บริษัท วินเทค แมนูแฟคเจอริ่ง จำกัด</h2>
+                            <h2>@lang('contactus.companyname')</h2>
                         </td>
                       </tr>
                       <tr>
                           <td>
-                              ที่อยู่:
+                              @lang('contactus.address')
                           </td>
                           <td colspan="2">
-                            35/199 หมู่ 2 ตำบล บางน้ำจืด อำเภอ เมือง จังหวัด สมุทรสาคร 74000 ประเทศไทย
+                            @lang('contactus.addressdetails')
                           </td>
 
                       </tr>
                       <tr>
                           <td>
-                              โทร:
+                              @lang('contactus.tel')
                           </td>
                           <td>
-                              034-495-251 ถึง 6
+                              @lang('contactus.teldetails1')
                           </td>
                           <td rowspan="6" style="vertical-align:bottom;text-align:right;">
                             <div class="contactus-QR">
@@ -85,43 +85,43 @@
 
                           </td>
                           <td>
-                            034-824-828 ถึง 9
+                            @lang('contactus.teldetails2')
                           </td>
 
                       </tr>
                       <tr>
                           <td>
-                            Call Center:
+                            @lang('contactus.callcenter')
                           </td>
                           <td>
-                            092-469-3000
-                          </td>
-
-                      </tr>
-                      <tr>
-                          <td>
-                            แฟกซ์:
-                          </td>
-                          <td>
-                            034-824-831
+                            @lang('contactus.callcenterDetails')
                           </td>
 
                       </tr>
                       <tr>
                           <td>
-                            ไลน์ไอดี:
+                            @lang('contactus.fax')
                           </td>
                           <td>
-                            @veco
+                            @lang('contactus.faxdetails')
                           </td>
 
                       </tr>
                       <tr>
                           <td>
-                            อีเมล:
+                            @lang('contactus.line')
                           </td>
                           <td>
-                            sale@wintechmfc.com
+                            @lang('contactus.linedetails')
+                          </td>
+
+                      </tr>
+                      <tr>
+                          <td>
+                            @lang('contactus.email')
+                          </td>
+                          <td>
+                            @lang('contactus.emaildetails')
                           </td>
 
                       </tr>
@@ -138,10 +138,10 @@
                     </div>
                     <div class="d-flex google-map-link-wrapper">
                          <div class="flex-even text-center" style="border-left:solid #202b62 2px;">
-                           <a style="color:#202b62" href="../images/contactus/WINTECHMFC_MAP.pdf" target="_blank" >ดูแผนที่</a>
+                           <a style="color:#202b62" href="../images/contactus/WINTECHMFC_MAP.pdf" target="_blank" >@lang('contactus.googlemap')</a>
                          </div>
                          <div class="flex-even text-center" style="border-left:solid #202b62 2px;border-right:solid #202b62 2px;">
-                           <a style="color:#202b62" href="../images/contactus/WINTECHMFC_MAP.pdf" download="WINTECHMFCMAP" target="_blank" >ดาวน์โหลด PDF</a>
+                           <a style="color:#202b62" href="../images/contactus/WINTECHMFC_MAP.pdf" download="WINTECHMFCMAP" target="_blank" >@lang('contactus.downloadpdf')</a>
                          </div>
                     </div>
 
@@ -157,34 +157,34 @@
               <form method="POST" action="contactus" id="customerInquiry">
               @csrf
               <div class="form-group">
-                <h4 style="font-size:20px;">ติดต่อเรา</h4>
+                <h4 style="font-size:20px;">@lang('contactus.contactus')</h4>
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" name="firstName" placeholder="ชื่อ">
+                  <input type="text" class="form-control" name="firstName" placeholder="@lang('contactus.fname')">
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" name="lastName" placeholder="นามสกุล">
+                  <input type="text" class="form-control" name="lastName" placeholder="@lang('contactus.flastname')">
               </div>
               <div class="form-group">
-                  <input type="email" class="form-control" name="email" placeholder="อีเมล">
+                  <input type="email" class="form-control" name="email" placeholder="@lang('contactus.femail')">
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" name="telephone" placeholder="เบอร์โทรศัพท์ (0849876547)">
+                  <input type="text" class="form-control" name="telephone" placeholder="@lang('contactus.ftelephone')">
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" name="company" placeholder="บริษัท">
+                  <input type="text" class="form-control" name="company" placeholder="@lang('contactus.fcompany')">
               </div>
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <input type="text" class="form-control" name="province" placeholder="จังหวัด">
+                  <input type="text" class="form-control" name="province" placeholder="@lang('contactus.fprovince')">
                 </div>
                 <div class="form-group col-md-6">
-                  <input type="text" class="form-control" name="country" placeholder="ประเทศ">
+                  <input type="text" class="form-control" name="country" placeholder="@lang('contactus.fcountry')">
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <input type="text" class="form-control" name="product" placeholder="สินค้าที่สนใจ">
+                  <input type="text" class="form-control" name="product" placeholder="@lang('contactus.fproduct')">
                 </div>
 
               </div>
@@ -194,7 +194,7 @@
               </div>
 
               <div class="text-right">
-                    <button type="submit" class="contactus-send-email">ส่งอีเมล</button>
+                    <button type="submit" class="contactus-send-email">@lang('contactus.fsendmail')</button>
               </div>
 
 

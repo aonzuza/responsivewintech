@@ -17,21 +17,21 @@
                       </td>
                       <td style="vertical-align:middle;text-align:center;">
                         <a target="_blank" href="https://www.facebook.com/vecohardware/">
-                          <img class="footer-icon" src="{{ asset('images/common/facebook.png') }}" />
+                          <img class="footer-icon" src="{{ asset('images/common/fb.png') }}" />
                        </a>
                       </td>
                     </tr>
                     <tr>
                       <td style="vertical-align:middle;text-align:center;">
                         <a target="_blank" href="http://line.me/ti/p/@uuc0799v">
-                          <img class="footer-icon" src="{{ asset('images/common/line.png') }}" />
+                          <img class="footer-icon" src="{{ asset('images/common/li.png') }}" />
                         </a>
                       </td>
                     </tr>
                     <tr>
                       <td style="vertical-align:middle;text-align:center;">
                         <a target="_blank" href="https://www.youtube.com/watch?v=7LUDhCxshLw&feature=youtu.be">
-                          <img class="footer-icon" src="{{ asset('images/common/youtube.png') }}" />
+                          <img class="footer-icon" src="{{ asset('images/common/yu.png') }}" />
                         </a>
                       </td>
                     </tr>
@@ -41,90 +41,90 @@
       </div>
       <div class="footer-second-col footer-col">
           <div>
-              <a href="{{asset('aboutus?area=company-profile-section-lg')}}">ประวัติบริษัท</a>
+              <a href="{{asset('aboutus?area=company-profile-section-lg')}}"> @lang('footer.company')</a>
           </div>
           <div>
-              <a href="{{asset('aboutus?area=certificate-section')}}">ใบรับรองคุณภาพ</a>
+              <a href="{{asset('aboutus?area=certificate-section')}}"> @lang('footer.certificates')</a>
           </div>
           <div>
-              <a href="{{asset('aboutus?area=project-section')}}">ผลงานที่ผ่านมา</a>
+              <a href="{{asset('aboutus?area=project-section')}}"> @lang('footer.projects')</a>
           </div>
           <div>
-              <a href="downloads">ดาวน์โหลด</a>
+              <a href="downloads"> @lang('footer.downloads')</a>
           </div>
           <div>
-              <a href="contactus">ติดต่อเรา</a>
+              <a href="contactus"> @lang('footer.contactus')</a>
           </div>
 
       </div>
       <div class="footer-third-col footer-col">
           <div>
-              <a href="{{asset('products/2')}}">ลูกบิดและก้านโยก</a>
+              <a href="{{asset('products/2')}}">@lang('footer.knobset')</a>
           </div>
           <div>
-              <a href="{{asset('products/3,4')}}">มอร์ติสล็อค / ไส้กุญแจและระบบมาสเตอร์คีย์</a>
+              <a href="{{asset('products/3,4')}}">@lang('footer.mortiselock')</a>
           </div>
           <div>
-              <a href="{{asset('residentiallock')}}">ดิจิตอลล็อคสำหรับบ้านพักทั่วไป</a>
+              <a href="{{asset('residentiallock')}}">@lang('footer.digitalresidentiallock')</a>
           </div>
           <div>
-              <a href="{{asset('products/6,7')}}">ดิจิตอลล็อคสำหรับโรงแรม / พาวเวอร์เซฟวิ่ง</a>
+              <a href="{{asset('products/6,7')}}">@lang('footer.digitalhoteldoorlock')</a>
           </div>
           <div>
-              <a href="{{asset('products/8,9,10')}}">รีเลย์/ ช่องเสียบการ์ด/ คีย์การ์ด</a>
+              <a href="{{asset('products/8,9,10')}}">@lang('footer.relaycontrol')</a>
           </div>
           <div>
-              <a href="{{asset('products/11')}}">บานพับ</a>
+              <a href="{{asset('products/11')}}">@lang('footer.hinge')</a>
           </div>
           <div>
-              <a href="{{asset('products/13,14,15,16')}}">กลอน/ ขอสับ/ ขอค้ำ/ ตัวล็อค</a>
+              <a href="{{asset('products/13,14,15,16')}}">@lang('footer.bolthooklatch')</a>
           </div>
 
       </div>
       <div class="footer-fourth-col footer-col">
           <div>
-              <a href="{{asset('products/17')}}">มือจับ</a>
+              <a href="{{asset('products/17')}}">@lang('footer.handle')</a>
           </div>
           <div>
-              <a href="{{asset('products/18,19')}}">ปุ่มจับ/ ปุ่มกระจก</a>
+              <a href="{{asset('products/18,19')}}">@lang('footer.knobmirorscrew')</a>
           </div>
           <div>
-              <a href="{{asset('products/20')}}">กันชน/ แป้นกันฝุ่น/ ตาแมว</a>
+              <a href="{{asset('products/20')}}">@lang('footer.doorstopper')</a>
           </div>
           <div>
-              <a href="{{asset('products/21,22')}}">ปุ่มยางกันกระแทก/ ป้ายสัญลักษณ์</a>
+              <a href="{{asset('products/21,22')}}">@lang('footer.doorviewer')</a>
           </div>
           <div>
-              <a href="{{asset('products/24,25,26,28,29')}}">โช้คประตู</a>
+              <a href="{{asset('products/24,25,26,28,29')}}">@lang('footer.doorcloser')</a>
           </div>
           <div>
-              <a href="{{asset('products/30,31')}}">อุปกรณ์กระจก/ มือจับบานกระจก</a>
+              <a href="{{asset('products/30,31')}}">@lang('footer.pullhandleforglassdoor')</a>
           </div>
           <div>
-              <a href="{{asset('products/33,34,35,36')}}">อุปกรณ์ประตูหนีไฟ</a>
+              <a href="{{asset('products/33,34,35,36')}}">@lang('footer.panicdoor')</a>
           </div>
       </div>
       <div class="footer-fifth-col footer-col">
         <div>
-            <a href="{{asset('products/38')}}">แม่กุญแจ</a>
+            <a href="{{asset('products/38')}}">@lang('footer.padlock')</a>
         </div>
         <div>
-            <a href="{{asset('products/39')}}">ล้อและรางเลื่อน</a>
+            <a href="{{asset('products/39')}}">@lang('footer.wheelrail')</a>
         </div>
         <div>
-            <a href="{{asset('products/40')}}">VecoxKirin Collections</a>
+            <a href="{{asset('products/40')}}">@lang('footer.vecoxkirin')</a>
         </div>
         <div>
-            <a href="{{asset('homeautomation')}}">ระบบบ้านอัจฉริยะ</a>
+            <a href="{{asset('homeautomation')}}">@lang('footer.homeautomation')</a>
         </div>
         <div>
-            <a href="{{asset('oem')}}">OEM/ ผลิตตามสั่ง</a>
+            <a href="{{asset('oem')}}">OEM/ @lang('footer.oem')</a>
         </div>
         <div>
-            <a href="{{asset('steel_galvanized')}}">ท่อเหล็กและแป๊ปน้ำ</a>
+            <a href="{{asset('steel_galvanized')}}">@lang('footer.galvanizedsteelpipe')</a>
         </div>
         <div>
-            <a href="{{asset('steeldoor')}}">ประตูเหล็ก</a>
+            <a href="{{asset('steeldoor')}}">@lang('footer.steeldoor')</a>
         </div>
 
       </div>

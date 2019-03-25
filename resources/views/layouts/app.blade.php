@@ -26,6 +26,18 @@
     <link rel="stylesheet" href="{{ asset('styles/topbarstyle.css') }}" >
     <link rel="stylesheet" href="{{ asset('styles/slidingmenustyle.css') }}" >
 
+    @if(Session::get('locale') == 'en')
+        <style>
+                  @font-face {
+                  font-family: 'gotham';
+                  src: url('styles/fonts/gotham/gothambook.ttf');
+              }
+              body{
+                font-family: 'gotham'
+              }
+        </style>
+    @endif
+
     @include('inc.googleHeadScript')
 
 

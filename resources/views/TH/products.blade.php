@@ -31,7 +31,13 @@
                                   <img style="width:100%;height:auto;" data-desc="{{$product->Image_Big}}" src="{{asset('images/products/items/'.$product->Image)}}" />
                               </div>
                               <div class="product-name-wrapper text-center">
-                                  {{$product->ProductName_TH }}
+
+                                  @if(Session::get('locale') == 'en')
+                                      {{$product->ProductName_EN }}
+                                  @else
+                                      {{$product->ProductName_TH }}
+                                  @endif
+
                               </div>
                         </div>
 

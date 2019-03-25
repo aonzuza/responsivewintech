@@ -15,7 +15,7 @@
             <div class="col-12 col-lg-11 offset-lg-1">
 
               <h2 class="downloads-header">
-                แคตตาล็อกผลิตภัณฑ์
+                @lang('downloads.productheader')
               </h2>
 
             </div>
@@ -38,11 +38,11 @@
                       </div>
                       <div class="downloads-text-wrapper">
                         <span>
-                            ประวัติและผลงานบริษัท
+                            @lang('downloads.companyprofile')
                         </span>
                       </div>
                       <div class="download-link-wrapper">
-                        <a target="_blank" href="images/downloads/PDF/Company_Profile_References.pdf" download="Company Profile">ดาวน์โหลด PDF</a>
+                        <a target="_blank" href="images/downloads/PDF/Company_Profile_References.pdf" download="Company Profile">@lang('downloads.downloadpdf')</a>
                       </div>
                     </div>
 
@@ -55,11 +55,11 @@
                       </div>
                       <div class="downloads-text-wrapper">
                         <span>
-                            ล็อคและอุปกรณ์
+                            @lang('downloads.lockandsecurity')
                         </span>
                       </div>
                       <div class="download-link-wrapper">
-                        <a target="_blank" href="images/downloads/PDF/Locking_Security.pdf" download="Locking Security">ดาวน์โหลด PDF</a>
+                        <a target="_blank" href="images/downloads/PDF/Locking_Security.pdf" download="Locking Security">@lang('downloads.downloadpdf')</a>
                       </div>
                     </div>
 
@@ -72,11 +72,11 @@
                       </div>
                       <div class="downloads-text-wrapper">
                         <span>
-                            VECOxKIRIN
+                            @lang('downloads.veco')
                         </span>
                       </div>
                       <div class="download-link-wrapper">
-                        <a target="_blank" href="images/downloads/PDF/VECOxKIRIN.pdf" download="VECOxKIRIN">ดาวน์โหลด PDF</a>
+                        <a target="_blank" href="images/downloads/PDF/VECOxKIRIN.pdf" download="VECOxKIRIN">@lang('downloads.downloadpdf')</a>
                       </div>
                     </div>
 
@@ -89,11 +89,11 @@
                       </div>
                       <div class="downloads-text-wrapper">
                         <span>
-                            ดิจิตัลล็อค
+                            @lang('downloads.digitallock')
                         </span>
                       </div>
                       <div class="download-link-wrapper">
-                        <a href="images/downloads/PDF/Digital_Doorlock.pdf" download="Digital Door Lock" target="_blank">ดาวน์โหลด PDF</a>
+                        <a href="images/downloads/PDF/Digital_Doorlock.pdf" download="Digital Door Lock" target="_blank">@lang('downloads.downloadpdf')</a>
                       </div>
                     </div>
 
@@ -106,11 +106,11 @@
                       </div>
                       <div class="downloads-text-wrapper">
                         <span>
-                            พาวเวอร์เซฟวิ่ง
+                            @lang('downloads.powersaving')
                         </span>
                       </div>
                       <div class="download-link-wrapper">
-                        <a href="images/downloads/PDF/Power_Saving.pdf" download="Power Saving" target="_blank">ดาวน์โหลด PDF</a>
+                        <a href="images/downloads/PDF/Power_Saving.pdf" download="Power Saving" target="_blank">@lang('downloads.downloadpdf')</a>
                       </div>
                     </div>
 
@@ -125,11 +125,11 @@
                       </div>
                       <div class="downloads-text-wrapper">
                         <span>
-                            บานพับ
+                            @lang('downloads.hinge')
                         </span>
                       </div>
                       <div class="download-link-wrapper">
-                        <a href="images/downloads/PDF/Hinge.pdf" download="Hinge" target="_blank">ดาวน์โหลด PDF</a>
+                        <a href="images/downloads/PDF/Hinge.pdf" download="Hinge" target="_blank">@lang('downloads.downloadpdf')</a>
                       </div>
                     </div>
 
@@ -142,11 +142,11 @@
                       </div>
                       <div class="downloads-text-wrapper">
                         <span>
-                            โช้คประตู
+                            @lang('downloads.doorcloser')
                         </span>
                       </div>
                       <div class="download-link-wrapper">
-                        <a href="images/downloads/PDF/door_closer.pdf" download="Door Closer" target="_blank">ดาวน์โหลด PDF</a>
+                        <a href="images/downloads/PDF/door_closer.pdf" download="Door Closer" target="_blank">@lang('downloads.downloadpdf')</a>
                       </div>
                     </div>
 
@@ -159,11 +159,11 @@
                       </div>
                       <div class="downloads-text-wrapper">
                         <span>
-                            อุปกรณ์ประตูหนีไฟ
+                            @lang('downloads.panicdoor')
                         </span>
                       </div>
                       <div class="download-link-wrapper">
-                        <a href="images/downloads/PDF/Panic_Exit_Device.pdf" download="Panic Exit Device" target="_blank">ดาวน์โหลด PDF</a>
+                        <a href="images/downloads/PDF/Panic_Exit_Device.pdf" download="Panic Exit Device" target="_blank">@lang('downloads.downloadpdf')</a>
                       </div>
                     </div>
 
@@ -176,11 +176,11 @@
                       </div>
                       <div class="downloads-text-wrapper">
                         <span>
-                            แม่กุญแจ
+                            @lang('downloads.padlock')
                         </span>
                       </div>
                       <div class="download-link-wrapper">
-                        <a href="images/downloads/PDF/Padlock.pdf" download="Pad Lock" target="_blank">ดาวน์โหลด PDF</a>
+                        <a href="images/downloads/PDF/Padlock.pdf" download="Pad Lock" target="_blank">@lang('downloads.downloadpdf')</a>
                       </div>
                     </div>
 
@@ -193,11 +193,11 @@
                       </div>
                       <div class="downloads-text-wrapper">
                         <span>
-                            ล้อและรางเลื่อน
+                            @lang('downloads.wheel_and_rail')
                         </span>
                       </div>
                       <div class="download-link-wrapper">
-                        <a href="images/downloads/PDF/Wheel_and_Rail.pdf" download="Wheel and Rail" target="_blank">ดาวน์โหลด PDF</a>
+                        <a href="images/downloads/PDF/Wheel_and_Rail.pdf" download="Wheel and Rail" target="_blank">@lang('downloads.downloadpdf')</a>
                       </div>
                     </div>
 
@@ -214,11 +214,11 @@
                       </div>
                       <div class="downloads-text-wrapper">
                         <span>
-                            คีย์การ์ด
+                            @lang('downloads.keycard')
                         </span>
                       </div>
                       <div class="download-link-wrapper">
-                        <a href="images/downloads/PDF/Keycard_Keytag.pdf" download="Keycard Keytag" target="_blank">ดาวน์โหลด PDF</a>
+                        <a href="images/downloads/PDF/Keycard_Keytag.pdf" download="Keycard Keytag" target="_blank">@lang('downloads.downloadpdf')</a>
                       </div>
                     </div>
 
@@ -245,7 +245,7 @@
           <div class="col-12 col-lg-11 offset-lg-1">
 
             <h2 class="downloads-header">
-              แคตตาล็อกอุปกรณ์ประตูและหน้าต่าง
+              @lang('downloads.productheader')
             </h2>
 
           </div>
@@ -270,11 +270,11 @@
                     </div>
                     <div class="downloads-text-wrapper">
                       <span>
-                          กลอน
+                          @lang('downloads.bolt')
                       </span>
                     </div>
                     <div class="download-link-wrapper">
-                      <a href="images/downloads/PDF/Bolt.pdf" download="Bolt" target="_blank">ดาวน์โหลด PDF</a>
+                      <a href="images/downloads/PDF/Bolt.pdf" download="Bolt" target="_blank">@lang('downloads.downloadpdf')</a>
                     </div>
                   </div>
 
@@ -287,11 +287,11 @@
                     </div>
                     <div class="downloads-text-wrapper">
                       <span>
-                          ขอสับ
+                          @lang('downloads.hook')
                       </span>
                     </div>
                     <div class="download-link-wrapper">
-                      <a href="images/downloads/PDF/Hook.pdf" download="Hook" target="_blank">ดาวน์โหลด PDF</a>
+                      <a href="images/downloads/PDF/Hook.pdf" download="Hook" target="_blank">@lang('downloads.downloadpdf')</a>
                     </div>
                   </div>
 
@@ -304,11 +304,11 @@
                     </div>
                     <div class="downloads-text-wrapper">
                       <span>
-                          ขอค้ำ
+                          @lang('downloads.doorguard')
                       </span>
                     </div>
                     <div class="download-link-wrapper">
-                      <a href="images/downloads/PDF/Door Guard.pdf" download="Door Guard" target="_blank">ดาวน์โหลด PDF</a>
+                      <a href="images/downloads/PDF/Door Guard.pdf" download="Door Guard" target="_blank">@lang('downloads.downloadpdf')</a>
                     </div>
                   </div>
 
@@ -321,11 +321,11 @@
                     </div>
                     <div class="downloads-text-wrapper">
                       <span>
-                          ตัวล็อค
+                          @lang('downloads.latch')
                       </span>
                     </div>
                     <div class="download-link-wrapper">
-                      <a href="images/downloads/PDF/Latch.pdf" download="Latch" target="_blank">ดาวน์โหลด PDF</a>
+                      <a href="images/downloads/PDF/Latch.pdf" download="Latch" target="_blank">@lang('downloads.downloadpdf')</a>
                     </div>
                   </div>
 
@@ -338,11 +338,11 @@
                     </div>
                     <div class="downloads-text-wrapper">
                       <span>
-                          มือจับ
+                          @lang('downloads.handle')
                       </span>
                     </div>
                     <div class="download-link-wrapper">
-                      <a href="images/downloads/PDF/Handle.pdf" download="Handle" target="_blank">ดาวน์โหลด PDF</a>
+                      <a href="images/downloads/PDF/Handle.pdf" download="Handle" target="_blank">@lang('downloads.downloadpdf')</a>
                     </div>
                   </div>
 
@@ -357,11 +357,11 @@
                     </div>
                     <div class="downloads-text-wrapper">
                       <span>
-                          ปุ่มจับ
+                          @lang('downloads.knob')
                       </span>
                     </div>
                     <div class="download-link-wrapper">
-                      <a href="images/downloads/PDF/Knob.pdf" download="Knob" target="_blank">ดาวน์โหลด PDF</a>
+                      <a href="images/downloads/PDF/Knob.pdf" download="Knob" target="_blank">@lang('downloads.downloadpdf')</a>
                     </div>
                   </div>
 
@@ -374,11 +374,11 @@
                     </div>
                     <div class="downloads-text-wrapper">
                       <span>
-                          ปุ่มยึด
+                          @lang('downloads.mirrorscrew')
                       </span>
                     </div>
                     <div class="download-link-wrapper">
-                      <a href="images/downloads/PDF/Mirror Screw.pdf" download="Mirror Screw" target="_blank">ดาวน์โหลด PDF</a>
+                      <a href="images/downloads/PDF/Mirror Screw.pdf" download="Mirror Screw" target="_blank">@lang('downloads.downloadpdf')</a>
                     </div>
                   </div>
 
@@ -391,11 +391,11 @@
                     </div>
                     <div class="downloads-text-wrapper">
                       <span>
-                          กันชน,แป้นกันฝุ่นและตาแมว
+                          @lang('downloads.doorstopper')
                       </span>
                     </div>
                     <div class="download-link-wrapper">
-                      <a href="images/downloads/PDF/Doorstopper.pdf" download="Doorstopper" target="_blank">ดาวน์โหลด PDF</a>
+                      <a href="images/downloads/PDF/Doorstopper.pdf" download="Doorstopper" target="_blank">@lang('downloads.downloadpdf')</a>
                     </div>
                   </div>
 
@@ -408,11 +408,11 @@
                     </div>
                     <div class="downloads-text-wrapper">
                       <span>
-                          ปุ่มยางกันกระแทก
+                          @lang('downloads.bumper')
                       </span>
                     </div>
                     <div class="download-link-wrapper">
-                      <a href="images/downloads/PDF/Bumper.pdf" download="Bumper" target="_blank">ดาวน์โหลด PDF</a>
+                      <a href="images/downloads/PDF/Bumper.pdf" download="Bumper" target="_blank">@lang('downloads.downloadpdf')</a>
                     </div>
                   </div>
 
@@ -425,11 +425,11 @@
                     </div>
                     <div class="downloads-text-wrapper">
                       <span>
-                          ป้ายสัญลักษณ์
+                          @lang('downloads.platenumber')
                       </span>
                     </div>
                     <div class="download-link-wrapper">
-                      <a href="images/downloads/PDF/Symbol.pdf" download="Symbol" target="_blank">ดาวน์โหลด PDF</a>
+                      <a href="images/downloads/PDF/Symbol.pdf" download="Symbol" target="_blank">@lang('downloads.downloadpdf')</a>
                     </div>
                   </div>
 
@@ -461,7 +461,7 @@
           <div class="col-12 col-lg-11 offset-lg-1">
 
             <h2 class="downloads-header">
-              คู่มือการติดตั้งอุปกรณ์
+              @lang('downloads.productmanual')
             </h2>
 
           </div>
@@ -486,11 +486,11 @@
                   </div>
                   <div class="downloads-text-wrapper">
                     <span>
-                        การติดตั้งชุดกุญแจ
+                        @lang('downloads.deadboltinstall')
                     </span>
                   </div>
                   <div class="download-link-wrapper">
-                    <a href="images/downloads/PDF/Dead_Bolt.pdf" download="Dead Bolt" target="_blank">ดาวน์โหลด PDF</a>
+                    <a href="images/downloads/PDF/Dead_Bolt.pdf" download="Dead Bolt" target="_blank">@lang('downloads.downloadpdf')</a>
                   </div>
                 </div>
 
@@ -503,11 +503,11 @@
                   </div>
                   <div class="downloads-text-wrapper">
                     <span>
-                        การติดตั้งลูกบิดประตู
+                        @lang('downloads.knobset')
                     </span>
                   </div>
                   <div class="download-link-wrapper">
-                    <a href="images/downloads/PDF/Knobsets.pdf" download="Knoblock" target="_blank" >ดาวน์โหลด PDF</a>
+                    <a href="images/downloads/PDF/Knobsets.pdf" download="Knoblock" target="_blank" >@lang('downloads.downloadpdf')</a>
                   </div>
                 </div>
 
@@ -520,11 +520,11 @@
                   </div>
                   <div class="downloads-text-wrapper">
                     <span>
-                        การติดตั้งชุดมือจับก้านโยก
+                        @lang('downloads.leverinstall')
                     </span>
                   </div>
                   <div class="download-link-wrapper">
-                    <a href="images/downloads/PDF/Lever_Handle.pdf" download="Lever Handle" target="_blank" >ดาวน์โหลด PDF</a>
+                    <a href="images/downloads/PDF/Lever_Handle.pdf" download="Lever Handle" target="_blank" >@lang('downloads.downloadpdf')</a>
                   </div>
                 </div>
 
@@ -537,11 +537,11 @@
                   </div>
                   <div class="downloads-text-wrapper">
                     <span>
-                        การติดตั้งชุดกุญแจก้านโยกประตู
+                        @lang('downloads.mortiseinstall')
                     </span>
                   </div>
                   <div class="download-link-wrapper">
-                    <a href="images/downloads/PDF/Mortise.pdf" download="Mortise" target="_blank">ดาวน์โหลด PDF</a>
+                    <a href="images/downloads/PDF/Mortise.pdf" download="Mortise" target="_blank">@lang('downloads.downloadpdf')</a>
                   </div>
                 </div>
 

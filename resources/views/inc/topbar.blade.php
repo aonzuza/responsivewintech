@@ -20,7 +20,7 @@
     </div>
     <div class="pr-4 align-self-end">
 
-            <a href="#">EN/TH</a>
+            <a href="{{asset('changelang')}}">EN/TH</a>
     </div>
 
   </div>
@@ -36,39 +36,39 @@
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
      <ul class="navbar-nav mr-auto">
        <li class="nav-item active">
-         <a class="nav-link" href="{{asset('aboutus')}}">องค์กรของเรา</a>
+         <a class="nav-link" href="{{asset('aboutus')}}"> @lang('topbar.company') </a>
        </li>
        <li class="dropdown">
-           <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">ผลิตภัณฑ์ <b class="caret"></b></a>
+           <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">@lang('topbar.products') <b class="caret"></b></a>
            <ul class="dropdown-menu multi-column columns-2">
              <div class="row">
                <div class="col-sm-6">
                  <ul class="multi-column-dropdown">
-                   <li><a href="{{asset('products/2')}}">ลูกบิดและก้านโยก</a></li>
-                   <li><a href="{{asset('products/3,4')}}">มอร์ติสล็อค / ไส้กุญแจและระบบมาสเตอร์คีย์</a></li>
-                   <li><a href="{{asset('residentiallock')}}">ดิจิตอลล็อคสำหรับบ้านพักทั่วไป</a></li>
-                   <li><a href="{{asset('products/6,7')}}">ดิจิตอลล็อคสำหรับโรงแรม / พาวเวอร์เซฟวิ่ง</a></li>
-                   <li><a href="{{asset('products/8,9,10')}}">รีเลย์/ ช่องเสียบการ์ด/ คีย์การ์ด</a></li>
-                   <li><a href="{{asset('products/11')}}">บานพับ</a></li>
-                   <li><a href="{{asset('products/13,14,15,16')}}">กลอน/ ขอสับ/ ขอค้ำ/ ตัวล็อค</a></li>
-                   <li><a href="{{asset('products/17')}}">มือจับ</a></li>
-                   <li><a href="{{asset('products/18,19')}}">ปุ่มจับ/ ปุ่มกระจก</a></li>
-                   <li><a href="{{asset('products/20')}}">กันชน/ แป้นกันฝุ่น/ ตาแมว</a></li>
-                   <li><a href="{{asset('products/21,22')}}">ปุ่มยางกันกระแทก/ ป้ายสัญลักษณ์</a></li>
+                   <li><a href="{{asset('products/2')}}">@lang('topbar.knobset') </a></li>
+                   <li><a href="{{asset('products/3,4')}}">@lang('topbar.mortiselock')</a></li>
+                   <li><a href="{{asset('residentiallock')}}">@lang('topbar.digitalresidentiallock')</a></li>
+                   <li><a href="{{asset('products/6,7')}}">@lang('topbar.digitalhoteldoorlock')</a></li>
+                   <li><a href="{{asset('products/8,9,10')}}">@lang('topbar.relaycontrol')</a></li>
+                   <li><a href="{{asset('products/11')}}">@lang('topbar.hinge')</a></li>
+                   <li><a href="{{asset('products/13,14,15,16')}}">@lang('topbar.bolthooklatch')</a></li>
+                   <li><a href="{{asset('products/17')}}">@lang('topbar.handle')</a></li>
+                   <li><a href="{{asset('products/18,19')}}">@lang('topbar.knobmirorscrew')</a></li>
+                   <li><a href="{{asset('products/20')}}">@lang('topbar.doorstopper')</a></li>
+                   <li><a href="{{asset('products/21,22')}}">@lang('topbar.doorviewer')</a></li>
                  </ul>
                </div>
                <div class="col-sm-6">
                  <ul class="multi-column-dropdown">
-                   <li><a href="{{asset('products/24,25,26,28,29')}}">โช้คประตู</a></li>
-                   <li><a href="{{asset('products/30,31')}}">อุปกรณ์กระจก/ มือจับบานกระจก</a></li>
-                   <li><a href="{{asset('products/33,34,35,36')}}">อุปกรณ์ประตูหนีไฟ</a></li>
-                   <li><a href="{{asset('products/38')}}">แม่กุญแจ</a></li>
-                   <li><a href="{{asset('products/39')}}">ล้อและรางเลื่อน</a></li>
-                   <li><a href="{{asset('products/40')}}">VecoxKirin Collections</a></li>
-                   <li><a href="{{asset('homeautomation')}}">ระบบบ้านอัจฉริยะ</a></li>
-                   <li><a href="{{asset('oem')}}">OEM/ ผลิตตามสั่ง</a></li>
-                   <li><a href="{{asset('steel_galvanized')}}">ท่อเหล็กและแป๊ปน้ำ</a></li>
-                   <li><a href="{{asset('steeldoor')}}">ประตูเหล็ก</a></li>
+                   <li><a href="{{asset('products/24,25,26,28,29')}}">@lang('topbar.doorcloser')</a></li>
+                   <li><a href="{{asset('products/30,31')}}">@lang('topbar.pullhandleforglassdoor')</a></li>
+                   <li><a href="{{asset('products/33,34,35,36')}}">@lang('topbar.panicdoor')</a></li>
+                   <li><a href="{{asset('products/38')}}">@lang('topbar.padlock')</a></li>
+                   <li><a href="{{asset('products/39')}}">@lang('topbar.wheelrail')</a></li>
+                   <li><a href="{{asset('products/40')}}">@lang('topbar.vecoxkirin')</a></li>
+                   <li><a href="{{asset('homeautomation')}}">@lang('topbar.homeautomation')</a></li>
+                   <li><a href="{{asset('oem')}}">@lang('topbar.oem')</a></li>
+                   <li><a href="{{asset('steel_galvanized')}}">@lang('topbar.galvanizedsteelpipe')</a></li>
+                   <li><a href="{{asset('steeldoor')}}">@lang('topbar.steeldoor')</a></li>
                  </ul>
                </div>
              </div>
@@ -76,10 +76,10 @@
        </li>
 
        <li class="nav-item">
-         <a class="nav-link" href="{{asset('downloads')}}">ดาวน์โหลด</a>
+         <a class="nav-link" href="{{asset('downloads')}}">@lang('topbar.downloads')</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="{{asset('contactus')}}">ติดต่อเรา</a>
+         <a class="nav-link" href="{{asset('contactus')}}">@lang('topbar.contactus')</a>
        </li>
 
 
