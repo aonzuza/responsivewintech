@@ -20,7 +20,7 @@ class ProductsController extends Controller
         $products = Product::whereIn('groupID',$groupIDs)->orderBy('groupID','asc')->get();
         //$products = Product::where('groupID',$groupID)->get();
 
-        return view('TH/products')->with('products',$products);
+        return view('pages/products')->with('products',$products);
 
     }
 }

@@ -16,7 +16,7 @@ class aboutusController extends Controller
       $projects = Storage::disk('public')->files('images/aboutus/projects');
 
 
-      return view('TH/aboutus')->with('projects',$projects);
+      return view('pages/aboutus')->with('projects',$projects);
 
     }
 

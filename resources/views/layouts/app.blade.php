@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>บริษัท วินเทค แมนูแฟคเจอริ่ง จำกัด</title>
+    <title>@lang('app.companyname')</title>
     <meta name="csrf-token" content="{{csrf_token()}}">
 
     <link rel="icon" type="image/png" href="images/common/favicon.png" />
@@ -27,15 +27,8 @@
     <link rel="stylesheet" href="{{ asset('styles/slidingmenustyle.css') }}" >
 
     @if(Session::get('locale') == 'en')
-        <style>
-                  @font-face {
-                  font-family: 'gotham';
-                  src: url('styles/fonts/gotham/gothambook.ttf');
-              }
-              body{
-                font-family: 'gotham'
-              }
-        </style>
+    <link rel="stylesheet" href="{{ asset('styles/enstyle.css') }}" >
+    <link rel="stylesheet" href="{{ asset('styles/enresponsivestyle.css') }}" >
     @endif
 
     @include('inc.googleHeadScript')

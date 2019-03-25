@@ -11,6 +11,7 @@ return [
     'products' => 'Products',
     'downloads' => 'Downloads',
     'contactus' => 'Contact Us',
+    'telephone' => '+6692-469-3000',
     // all product in sub menu
     'knobset' => 'Knob Set & Lever Handle',
     'mortiselock' => 'Mortis Lock / Profile Cylinder And Master Key Systems',

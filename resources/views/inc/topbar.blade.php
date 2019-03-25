@@ -14,7 +14,7 @@
                 LINE: @VECO
             </div>
             <div>
-                CALL CENTER: +6692-469-3000
+                CALL CENTER: @lang('topbar.telephone')
             </div>
 
     </div>

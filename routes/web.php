@@ -13,7 +13,7 @@
 
 
 Route::get('/changelang', function () {
-  
+
    $lang =  (Session::get('locale') == 'en') ? 'th' : 'en';
    Session::put('locale', $lang);
    return redirect()->back();
@@ -24,10 +24,10 @@ Route::get('/changelang', function () {
 
 //  -------------- Thai routes --------------------//
 Route::get('/', function () {
-    return view('TH/home');
+    return view('pages/home');
 });
 Route::get('/home', function () {
-    return view('TH/home');
+    return view('pages/home');
 });
 
 Route::get('/aboutus',[
@@ -35,25 +35,25 @@ Route::get('/aboutus',[
 ]);
 
 Route::get('/downloads', function () {
-    return view('TH/downloads');
+    return view('pages/downloads');
 });
 
 Route::get('/contactus', function () {
-    return view('TH/contactus');
+    return view('pages/contactus');
 });
 
 Route::get('/homeautomation', function () {
-    return view('TH/homeautomation');
+    return view('pages/homeautomation');
 });
 Route::get('/oem', function () {
-    return view('TH/oem');
+    return view('pages/oem');
 });
 Route::get('/steel_galvanized', function () {
-    return view('TH/steel_galvanized');
+    return view('pages/steel_galvanized');
 });
 
 Route::get('/steeldoor', function () {
-    return view('TH/steeldoor');
+    return view('pages/steeldoor');
 });
 
 
@@ -65,7 +65,7 @@ Route::get('products/{productID}',[
     'uses' => 'ProductsController@show',
 ]);
 Route::get('/residentiallock', function () {
-    return view('TH/residentiallock');
+    return view('pages/residentiallock');
 });
 
 
@@ -75,7 +75,7 @@ Route::post('/contactus',[
 ]);
 
 Route::get('/test', function () {
-    return view('TH/test');
+    return view('pages/test');
 });
 
 // ---------------------end thai route----------------/

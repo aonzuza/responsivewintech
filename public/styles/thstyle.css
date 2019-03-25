@@ -1,5 +1,3 @@
-
-
 *{
   box-sizing: border-box;
 }
@@ -108,19 +106,30 @@ body{
 }
 
 
-.tb-social{
+.footer-icons-wrapper{
   margin-top: 10px;
-  /* width: 60%; */
-}
-.tb-social td{
-  /* border: solid yellow 1px; */
 }
 
-.footer-icon{
-  /* width: 30%;
-  height: auto; */
+.footer-qr-wrapper{
+  width: 66px;
+  height: 66px;
+}
+.footer-qr-wrapper img{
+  width: 100%;
   height: 100%;
-  width: auto;
+}
+.footer-social-wrapper{
+  width: 25px;
+  height: 66px;
+  padding-left: 5px;
+
+}
+.footer-social-wrapper img{
+  /* width: 100%;
+  height: 100%; */
+  width: 20px;
+  height: 20px;
+  margin-bottom: 2px;
 }
 
 /* ---------------start mobile footer ------------------ */
@@ -195,6 +204,11 @@ body{
 .contactus-QR{
   display:none;
 }
+
+.contactus-mail-sent{
+  margin-top: 50px;
+}
+
 .contact-form-wrapper{
   /* margin-top: 30px; */
   display: none;
@@ -226,7 +240,7 @@ body{
 
 
 /*-----------------------start home-----------------------------*/
-#wowslider-container1
+#wowslider-container1{
   padding-top: 60px;
 }
 .home-second-wrapper{
@@ -236,8 +250,22 @@ body{
 .home-second-wrapper p{
   font-size: 1.1rem;
 }
+.home-product-quote div{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 0.9rem;
+}
+.home-product-quote div:nth-child(1){
+  border-right:solid #0e1b2b 1px;
+}
+.home-product-quote div:nth-child(2){
+  border-right:solid #0e1b2b 1px;
+}
+.home-product-quote div:nth-child(3){
+  border-right:solid #0e1b2b 1px;
+}
+
 .home-image-logo{
-  /* margin-top: 20px; */
   margin-bottom: 20px;
   width: 100px;
 }
@@ -305,6 +333,13 @@ body{
 .aboutus-page-wrapper p{
   font-size: 1rem;
 }
+
+.aboutus-company-quote{
+  font-size: 1rem;
+  text-align: center;
+}
+
+
 
 .aboutus-header{
   margin-top: 20px;

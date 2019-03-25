@@ -68,7 +68,25 @@
                 @lang('home.text2')
             </p>
 
+            <div class="d-flex home-product-quote">
+                    <div class="ml-auto">
+                      SIMPLE
+                    </div>
+                    <div>
+                      SMART
+                    </div>
+                    <div>
+                      STYLISH
+                    </div>
+                    <div class="mr-auto">
+                      SAFETY
+                    </div>
+
+            </div>
+
       </div>
+
+
 
     </div>
 

@@ -54,7 +54,7 @@ class ContactusController extends Controller
         // return back()->with('mailSent',$mailSent);
 
 
-        return view('TH/contactus')->with('mailSent',$mailSent);
+        return view('pages/contactus')->with('mailSent',$mailSent);
 
     }
 }

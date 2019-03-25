@@ -8,18 +8,34 @@
                   <br>
                   Call Center: @lang('footer.telephone')
 
-                  <div class="d-flex footer-icons-wrapper">
-
-                    <div class="footer-qr-wrapper bg-red">
-                        <img   src="{{ asset('images/common/QRCode.png') }}" />
-                    </div>
-                    <div class="footer-social-wrapper">
-                        <img   src="{{ asset('images/common/fb.png') }}" />
-                        <img   src="{{ asset('images/common/li.png') }}" />
-                        <img   src="{{ asset('images/common/yu.png') }}" />
-                    </div>
-
-                  </div>
+                  <table class="tb-social">
+                    <col width="50%">
+                    <col width="50%">
+                    <tr>
+                      <td rowspan="3">
+                          <img style="width:100%;height:auto;"  src="{{ asset('images/common/QRCode.png') }}" />
+                      </td>
+                      <td style="vertical-align:middle;text-align:center;">
+                        <a target="_blank" href="https://www.facebook.com/vecohardware/">
+                          <img class="footer-icon" src="{{ asset('images/common/fb.png') }}" />
+                       </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="vertical-align:middle;text-align:center;">
+                        <a target="_blank" href="http://line.me/ti/p/@uuc0799v">
+                          <img class="footer-icon" src="{{ asset('images/common/li.png') }}" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="vertical-align:middle;text-align:center;">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=7LUDhCxshLw&feature=youtu.be">
+                          <img class="footer-icon" src="{{ asset('images/common/yu.png') }}" />
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
 
               </div>
       </div>

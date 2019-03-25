@@ -6,6 +6,7 @@ return [
     'products' => 'ผลิตภัณฑ์',
     'downloads' => 'ดาวน์โหลด',
     'contactus' => 'ติดต่อเรา',
+    'telephone' => '092-469-3000',
     // all product in sub menu
     'knobset' => 'ลูกบิดและก้านโยก',
     'mortiselock' => 'มอร์ติสล็อค / ไส้กุญแจและระบบมาสเตอร์คีย์',

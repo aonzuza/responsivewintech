@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    'mailsent' =>'We got your messages !!',
     'companyname' => 'WINTECH MANUFACTURING CO.,LTD.',
     'address' => 'Address',
     'addressdetails' => '35/199 Moo2 Tumbon Bang-namcheud,Ampher Muang Samutasakorn 74000, Thailand',

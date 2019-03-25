@@ -31,10 +31,10 @@
 
 @if(isset($mailSent))
 
-<div class="container-fluid">
+<div class="container-fluid contactus-mail-sent">
 
   <div class="alert alert-warning" role="alert">
-     เราได้รับคำถามของคุณแล้ว !!!
+     @lang('contactus.mailsent')
      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
      </button>

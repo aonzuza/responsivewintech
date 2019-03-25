@@ -42,6 +42,9 @@
               <p>
                   @lang('aboutus.companydetails1')
               </p>
+              <p class="aboutus-company-quote">
+                @lang('aboutus.companyquote')
+              </p>
               <p>
                   @lang('aboutus.companydetails2')
               </p>

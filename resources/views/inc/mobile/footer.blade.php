@@ -27,7 +27,7 @@
       <div class="mobile-footer-company-details">
             LineID : @VECO
             </br>
-            CALL CENTER: <a href="tel:+6692-469-3000" target="_blank">+6692-469-3000</a>
+            CALL CENTER: <a href="tel:+6692-469-3000" target="_blank">@lang('footer.telephone')</a>
       </div>
 
     </div>
