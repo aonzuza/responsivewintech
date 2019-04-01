@@ -8,7 +8,7 @@
 <div class="contactus-header">
 
       <!--  image -->
-      <img style="width:100%;height:auto;" src="https://dummyimage.com/1920x1080/000000/ffffff" alt="">
+      <img style="width:100%;height:auto;" src="{{asset('images/contactus/contactus.jpg').'?'.time()}}" alt="">
 
 </div>
 
@@ -59,7 +59,7 @@
                         </td>
                       </tr>
                       <tr>
-                          <td>
+                          <td style="vertical-align:top;">
                               @lang('contactus.address')
                           </td>
                           <td colspan="2">

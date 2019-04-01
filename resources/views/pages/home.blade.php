@@ -5,32 +5,60 @@
 <link rel="stylesheet" type="text/css" href="images/home/slider/engine1/style.css" />
 <script type="text/javascript" src="images/home/slider/engine1/jquery.js"></script>
 <!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="images/home/mslider/engine2/style.css" />
+<script type="text/javascript" src="images/home/mslider/engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
 @endsection
 
 @section('content')
 
 
-
-<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-<div id="wowslider-container1">
+<!--  desktop version -->
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1" class="desktop-slider">
 <div class="ws_images"><ul>
-        <li><a href="products.html#40" target="_self"><img src="images/home/slider/data1/images/slide5.jpg" alt="slide5" title="slide5" id="wows1_0"/></a></li>
-        <li><img src="images/home/slider/data1/images/slide2.jpg" alt="Slide2" title="Slide2" id="wows1_1"/></li>
-        <li><img src="images/home/slider/data1/images/slide3.jpg" alt="Slide3" title="Slide3" id="wows1_2"/></li>
-        <li><a href="http://wowslider.com"><img src="images/home/slider/data1/images/slide4.jpg" alt="slider" title="Slide4" id="wows1_3"/></a></li>
-        <li><img src="images/home/slider/data1/images/slide1.jpg" alt="Slide1" title="Slide1" id="wows1_4"/></li>
+        <li><img src="images/home/slider/data1/images/slide1.jpg?{{time()}}" alt="slide1" title="slide1" id="wows1_0"/></li>
+        <li><img src="images/home/slider/data1/images/slide2.jpg?{{time()}}" alt="Slide2" title="Slide2" id="wows1_1"/></li>
+        <li><img src="images/home/slider/data1/images/slide3.jpg?{{time()}}" alt="Slide3" title="Slide3" id="wows1_2"/></li>
+        <li><img src="images/home/slider/data1/images/slide4.jpg?{{time()}}" alt="Slide4" title="Slide4" id="wows1_2"/></li>
     </ul></div>
     <div class="ws_bullets"><div>
-        <a href="#" title="slide5"><span><img src="images/home/slider/data1/tooltips/slide5.jpg" alt="slide5"/>1</span></a>
-        <a href="#" title="Slide2"><span><img src="images/home/slider/data1/tooltips/slide2.jpg" alt="Slide2"/>2</span></a>
-        <a href="#" title="Slide3"><span><img src="images/home/slider/data1/tooltips/slide3.jpg" alt="Slide3"/>3</span></a>
-        <a href="#" title="Slide4"><span><img src="images/home/slider/data1/tooltips/slide4.jpg" alt="Slide4"/>4</span></a>
-        <a href="#" title="Slide1"><span><img src="images/home/slider/data1/tooltips/slide1.jpg" alt="Slide1"/>5</span></a>
+        <a href="#" title="slide1"><span><img src="images/home/slider/data1/tooltips/slide1.jpg?{{time()}}" alt="slide5"/>1</span></a>
+        <a href="#" title="Slide2"><span><img src="images/home/slider/data1/tooltips/slide2.jpg?{{time()}}" alt="Slide2"/>2</span></a>
+        <a href="#" title="Slide3"><span><img src="images/home/slider/data1/tooltips/slide3.jpg?{{time()}}" alt="Slide3"/>3</span></a>
+        <a href="#" title="Slide4"><span><img src="images/home/slider/data1/tooltips/slide4.jpg?{{time()}}" alt="Slide4"/>4</span></a>
     </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a></div>
 <div class="ws_shadow"></div>
 </div>
 <script type="text/javascript" src="images/home/slider/engine1/wowslider.js"></script>
 <script type="text/javascript" src="images/home/slider/engine1/script.js"></script>
+
+
+
+
+<!-- mobile section -->
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2" class="mobile-slider">
+<div class="ws_images"><ul>
+		<li><img src="images/home/mslider/data2/images/mslide1.jpg" alt="" title="" id="wows2_0"/></li>
+		<li><img src="images/home/mslider/data2/images/mslide2.jpg" alt="" title="" id="wows2_1"/></li>
+		<li><img src="images/home/mslider/data2/images/mslide3.jpg" alt="image slider" title="" id="wows2_2"/></li>
+		<li><img src="images/home/mslider/data2/images/mslide4.jpg" alt="" title="" id="wows2_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="images/home/mslider/data2/tooltips/mslide1.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="images/home/mslider/data2/tooltips/mslide2.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="images/home/mslider/data2/tooltips/mslide3.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="images/home/mslider/data2/tooltips/mslide4.jpg" alt=""/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"></div>
+<div class="ws_shadow"></div>
+</div>
+<script type="text/javascript" src="images/home/mslider/engine2/wowslider.js"></script>
+<script type="text/javascript" src="images/home/mslider/engine2/script.js"></script>
 <!-- End WOWSlider.com BODY section -->
 
 
@@ -92,5 +120,44 @@
 
   </div>
 </div>
+
+@endsection
+
+
+@section('script')
+
+<script>
+
+
+      $(window).resize(function() {
+            handleSlider();
+      });
+
+      $(document).ready(function(){
+
+        // setInterval(function(){
+        //   handleSlider();
+        // },500);
+
+        handleSlider();
+
+      });
+
+      function handleSlider(){
+
+          var width = $(window).width();
+          if(width > 768 ){
+                $('.desktop-slider').show();
+                $('.mobile-slider').hide();
+          }
+          else{
+              $('.desktop-slider').hide();
+              $('.mobile-slider').show();
+          }
+      }
+
+
+</script>
+
 
 @endsection

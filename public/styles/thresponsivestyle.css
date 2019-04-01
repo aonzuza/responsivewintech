@@ -47,6 +47,7 @@
   .steep-page-second-wrapper{
     margin-top:60px;
   }
+  
 
 }
 
@@ -93,18 +94,28 @@
   }
 
   .oem-page-wrapper{
-    padding-top: 0px;
+    padding-top: 50px;
     /* padding-bottom: 80px; */
   }
   .oem-text-wrapper{
       margin-top: 40px;
-      /* width: 50%; */
-      width:490px;
+      width: 50%;
+      /* width:490px; */
+      /* text-align: right; */
       margin-bottom: 80px;
       background-color: #dcdbdb;
-      padding: 80px 40px;
+      /* padding: 80px 40px; */
+      padding: 50px 30px 50px 90px;
+      font-size: 0.9rem;
   }
-
+.oem-text-wrapper p{
+    /* text-align: left;
+    background-color: red;
+    max-width: 200px; */
+    /* max-width: 200px; */
+    /* background-color: red; */
+    max-width: 400px;
+}
   .steeldoor-page-wrapper{
     padding-top: 20px;
   }
@@ -145,6 +156,8 @@
   }
   .topbar{
     display: block;
+
+
   }
   /* big screen hide topbar footer for mobiles */
   .mobile-topbar{
@@ -162,7 +175,7 @@
   }
 
   .downloads-page-wrapper{
-    padding-top: 30px;
+    padding-top: 10px;
   }
 
   .residentiallock-page-wrapper{
@@ -176,6 +189,7 @@
 
   .homeautomation-video-text-wrapper{
     margin-top: 0px;
+    padding-left: 20px;
   }
 
 
@@ -204,7 +218,54 @@
     padding-right: 60px;
 
   }
+  .downloads-header{
+    text-align: left;
+    padding-left: 10px;
+  }
+  .homeautomation-page-wrapper{
+    padding-top: 0px;
+  }
 
+  .products-page-wrapper{
+    padding-top: 0px;
+  }
+  .aboutus-img-tiles-wrapper{
+    margin-top: 0px;
+  }
+  .aboutus-page-wrapper p{
+    font-size: 0.85rem;
+  }
+  .aboutus-profile-text-wrapper{
+    padding-left: 60px;
+    margin-top: 0px;
+  }
+
+  .certificate-link-wrapper-left{
+    padding-left: 0px;
+  }
+  .certificate-link-wrapper-left ul{
+    padding-left: 20px;
+  }
+  .certificate-link-wrapper-right{
+    padding-left: 0px;
+  }
+  .certificate-link-wrapper-right ul{
+    padding-left: 0px;
+  }
+  .aboutus-header h2{
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 10px;
+  }
+  .aboutus-certificate-text-wrapper{
+    margin-top: 0px;
+  }
+  .certificate-section{
+    margin-top: 50px;
+  }
+  .project-section{
+    margin-top: 50px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

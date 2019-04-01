@@ -16,7 +16,7 @@
 
 }
 .sliding-menu ul{
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .sliding-menu ul li{
   padding-top: 8px;
@@ -24,16 +24,18 @@
 .sliding-menu ul li a{
   color:black;
   text-decoration: none;
-
+  /* font-weight: 400; */
 }
 
 .sliding-menu ul li a::after{
   display: none;
 }
 
-
+.slide-submenu{
+  font-weight: 250;
+}
 .slide-submenu-highlight{
-  font-weight: 500;
+  font-weight: 400;
 }
 
 

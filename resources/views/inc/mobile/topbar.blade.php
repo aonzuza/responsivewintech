@@ -6,7 +6,7 @@
     <div class="d-flex">
 
         <div class="mr-auto">
-            <a href="home">
+            <a href="{{asset('home')}}">
                 <img class="mobile-top-bar-logo" src="{{ asset('images/common/logo_black.png') }}" />
             </a>
         </div>

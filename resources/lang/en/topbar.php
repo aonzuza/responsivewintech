@@ -2,7 +2,7 @@
 
 return [
 
-    'company' => 'Company',
+    'company' => 'about us',
     'products' => 'products',
     'downloads' => 'downloads',
     'contactus' => 'contact us',

@@ -34,9 +34,11 @@ Route::get('/aboutus',[
     'uses' => 'aboutusController@index',
 ]);
 
-Route::get('/downloads', function () {
-    return view('pages/downloads');
-});
+
+Route::get('/downloads',[
+    'uses' => 'DownloadController@index',
+]);
+
 
 Route::get('/contactus', function () {
     return view('pages/contactus');
@@ -77,5 +79,6 @@ Route::post('/contactus',[
 Route::get('/test', function () {
     return view('pages/test');
 });
+
 
 // ---------------------end thai route----------------/

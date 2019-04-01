@@ -2,7 +2,7 @@
 
 return [
 
-    'productheader' => 'PRODUCT CATALOGUE',
+    'downloadheader' => 'DOWNLOAD CATALOGUE',
     'companyprofile' => 'Company Profile & References',
     'lockandsecurity' => 'Locking & Security',
     'veco' => 'VECOxKIRIN',
@@ -28,7 +28,7 @@ return [
     'platenumber' => 'Plate Number',
 
     'productmanual' => 'PRODUCT MANUAL',
-    'deadboltinstall' => 'Dead Bolt Installation Guide ',
+    'deadboltinstall' => 'Dead Bolt Installation Guide',
     'knobset' => 'Knobsets Installation Guide',
     'leverinstall' => 'Lever Handle Installation Guide',
     'mortiseinstall' => 'Mortise Installation Guide',

@@ -2,7 +2,7 @@
 
 return [
 
-    'productheader' => 'แคตตาล็อกผลิตภัณฑ์',
+    'downloadheader' => 'ดาวน์โหลดแคตตาล็อก',
     'companyprofile' => 'ประวัติและผลงานบริษัท',
     'lockandsecurity' => 'ล็อคและอุปกรณ์',
     'veco' => 'VECOxKIRIN',

@@ -24,27 +24,28 @@
 
       <div class="row">
 
-          <div class="col-lg-6">
+          <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0 col-no-padding">
 
-              <div class="d-md-flex align-items-center" style="height:100%;">
+              <div class="d-md-flex align-items-start" style="height:100%;">
                 <div class="aboutus-profile-image-wrapper">
-                    <img  width="100%" height="auto"  src="{{asset('images/aboutus/company.png')}}?{{time()}}" />
+                    <img width="100%" height="auto"  src="{{asset('images/aboutus/company.jpg')}}?{{time()}}" />
                 </div>
               </div>
 
           </div>
-          <div class="col-lg-6">
+          <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0">
 
             <div class="aboutus-profile-text-wrapper">
 
-              <h2 class="d-none d-lg-block company-profile-section-lg">@lang('aboutus.companyheader')</h2>
-              <h3>@lang('aboutus.companysubheader')</h3>
+              <!-- <h2 class="d-none d-lg-block company-profile-section-lg">@lang('aboutus.companyheader')</h2> -->
+              <h2 class="d-none d-lg-block company-profile-section-lg">@lang('aboutus.companyquote')</h2>
+              <h2>@lang('aboutus.companysubheader')</h2>
               <p>
                   @lang('aboutus.companydetails1')
               </p>
-              <p class="aboutus-company-quote">
+              <!-- <p class="aboutus-company-quote">
                 @lang('aboutus.companyquote')
-              </p>
+              </p> -->
               <p>
                   @lang('aboutus.companydetails2')
               </p>
@@ -77,7 +78,7 @@
 
           <div class="row">
 
-            <div class="col-lg-6 order-lg-2">
+            <!-- <div class="col-lg-6 order-lg-2">
 
               <div class="d-md-flex align-items-center" style="height:100%;">
                   <div class="aboutus-certificate-image-wrapper">
@@ -85,9 +86,19 @@
                   </div>
               </div>
 
+            </div> -->
+
+            <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0 col-no-padding order-lg-2">
+
+                <div class="d-md-flex align-items-start" style="height:100%;">
+                  <div class="aboutus-certificate-image-wrapper">
+                    <img style="width:100%;height:auto;"  src="{{asset('images/aboutus/why.jpg')}}?{{time()}}" />
+                  </div>
+                </div>
+
             </div>
 
-            <div class="col-lg-6 order-lg-1">
+            <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0">
                   <div class="aboutus-certificate-text-wrapper">
 
                     <h1>@lang('aboutus.certificatessubheader')</h1>
@@ -97,7 +108,7 @@
                     <div class="container-fluid">
 
                       <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6 certificate-link-wrapper-left">
                                 <ul style="margin-bottom:0;">
                                       <li><a href="images/aboutus/certificates/iso90012015.pdf"  target="_blank">ISO 9001:2015</a></li>
                                       <li><a href="images/aboutus/certificates/knobtis.pdf"  target="_blank">Knob Lock TIS</a></li>
@@ -108,7 +119,7 @@
                                 </ul>
 
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-6 certificate-link-wrapper-right">
 
                                 <ul>
                                       <li><a href="images/aboutus/certificates/waterspray(fog)test.pdf" target="_blank">Water Spray Test</a></li>
@@ -160,13 +171,24 @@
 
           <div class="row">
 
-            <div class="col-lg-6 order-lg-2">
+            <div class="col-lg-6 order-lg-2 col-no-padding">
 
 
-              <div class="project-frame-wrapper">
+              <div class="project-frame-wrapper" style="position:relative">
 
-                  <img style="width:100%;height:auto;"  src="" />
+                  @if(Session::get('locale') == 'th')
+                    <img style="width:100%;height:auto;" data-desc="{{$projects[0]->Name_TH}}"  src="{{ asset('images/aboutus/projects').'/'.$projects[0]->IMG_Color }}" />
+                  @else
+                    <img style="width:100%;height:auto;" data-desc="{{$projects[0]->Name_EN}}"  src="{{ asset('images/aboutus/projects').'/'.$projects[0]->IMG_Color }}" />
+                  @endif
 
+                <div class="project-desc">
+                  @if(Session::get('locale') == 'th')
+                     {{$projects[0]->Name_TH }}
+                  @else
+                    {{$projects[0]->Name_EN }}
+                  @endif
+                </div>
               </div>
               <div style="clear:both;"></div>
 
@@ -176,7 +198,11 @@
               <div class="aboutus-img-tiles-wrapper">
                 @foreach($projects as $project)
                 <div class="aboutus-tile">
-                   <img style="width:100%;height:auto;" class="img-bw" src="{{$project}}" />
+                  @if(Session::get('locale') == 'th')
+                    <img style="width:100%;height:auto;" class="img-bw" data-desc="{{$project->Name_TH}}" src="{{asset('images/aboutus/projects').'/'.$project->IMG_Color}}" />
+                  @else
+                    <img style="width:100%;height:auto;" class="img-bw" data-desc="{{$project->Name_EN}}" src="{{asset('images/aboutus/projects').'/'.$project->IMG_Color}}" />
+                  @endif
                 </div>
                  @endforeach
               </div>
@@ -207,17 +233,19 @@ $(window).resize(function() {
 $(document).ready(function() {
 
 
-    // set default image
-    //  display a project
-    var firstImg = $('.aboutus-img-tiles-wrapper img').eq(0);
-    $('.project-frame-wrapper img').attr('src',firstImg.attr('src'));
-    // $('.project-frame-wrapper img').height($('.project-frame-wrapper img').height());
+      //set default image
+     //display a project
+
 
     $('.aboutus-img-tiles-wrapper img').hover(function(e){
           $(this).removeClass('img-bw');
           // update image source
-          $imgSrc = $(this).attr('src');
-          $('.project-frame-wrapper img').attr('src',$imgSrc);
+          var imgSrc = $(this).attr('src');
+          var desc   = $(this).data('desc');
+
+          $('.project-frame-wrapper img').attr('src',imgSrc);
+          $('.project-desc').html(desc);
+
     }).mouseleave(function(e){
           $(this).addClass('img-bw');
     });
@@ -232,6 +260,13 @@ $(document).ready(function() {
     }
 
 });
+
+function setFirstImage(){
+  var firstImg = $('.aboutus-img-tiles-wrapper img').eq(0);
+  $('.project-frame-wrapper img').attr('src',firstImg.attr('src'));
+  $('.project-frame-wrapper img').width('100%');
+  $('.project-frame-wrapper img').height('auto');
+}
 
 function resizeTiles(){
 

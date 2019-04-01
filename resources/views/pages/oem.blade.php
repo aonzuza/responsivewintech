@@ -11,7 +11,7 @@
 
           </div>
 
-          <div class="oem-text-wrapper d-flex align-items-center" >
+          <div class="oem-text-wrapper d-flex justify-content-end" >
 
               <p>
                 @lang('oemmadetoorder.text')

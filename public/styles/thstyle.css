@@ -35,16 +35,16 @@ body{
   display: none;
 }
 #topbar-company-info{
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 10px;
   display: none;
+  font-size: 0.8rem;
 }
 #topbar-company-info a{
   color:black;
-
 }
 .top-bar-logo{
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 #topbar-link-wrapper a{
@@ -53,6 +53,7 @@ body{
   font-weight: bold;
   letter-spacing: 1px;
   text-transform:uppercase;
+  /* font-size: 0.9rem; */
 }
 /*  mobile topbar */
 .mobile-topbar{
@@ -62,20 +63,22 @@ body{
   width: 100%;
   background-color: white;
   z-index: 999;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
   padding-right: 10px;
   transition: 0.5s;
+  /* border-bottom: solid black 1px; */
 }
 .mobile-top-bar-logo{
-  width: 120px;
+  width: 100px;
   height: auto;
   margin-right: 15px;
 }
 .mobile-topbar-items{
-  width: 25px;
+  width: 22px;
   height: auto;
+  margin-right: 5px;
 }
 .mobile-topbar a:hover{
     text-decoration: none;
@@ -88,7 +91,7 @@ body{
 .footer-wrapper{
   background-color: #0e1b2b;
   padding: 10px 30px;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   display: none;
   font-weight: 200;
 }
@@ -121,7 +124,7 @@ body{
 .footer-social-wrapper{
   width: 25px;
   height: 66px;
-  padding-left: 5px;
+  padding-left: 25px;
 
 }
 .footer-social-wrapper img{
@@ -137,38 +140,33 @@ body{
   background-color: #0e1b2b;
 }
 .mobile-footer-wrapper{
-  /* background-color: red; */
   width: 90%;
-  padding-top: 20px;
-  padding-bottom: 20px;
   max-width: 378px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .mobile-footer-logo-wrapper{
-  width: 30%;
-  margin-right: 3%;
-  /* background-color: red; */
+  /* width: 30%;
+  margin-right: 3%; */
+  text-align: center;
+  height: auto;
+
 }
 .mobile-footer-social-wrapper{
-  width: 30%;
-  margin-right: 3%;
-  /* background-color: yellow; */
+  /* width: 30%;
+  margin-right: 3%; */
 }
 .mobile-footer-company-details{
-  width: 33%;
   font-size: 0.6rem;
-  text-transform: uppercase;
-  /* background-color: blue; */
   color:white;
-  /* background-color: green; */
 }
 .mobile-footer-company-details a{
-  color:white;
+ color:white;
 }
 
 /*  */
 .mobile-footer-social-icon{
-  width: 25%;
-  margin-left: 6.25%;
+  margin-right: 15px;
 }
 
 /* .mobile-footer-logo-wrapper{
@@ -190,7 +188,7 @@ body{
 
 /* ------------------------start contact us------------------------ */
 .contactus-wrapper{
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 40px;
 }
 .contactus-compny-details{
@@ -241,7 +239,7 @@ body{
 
 /*-----------------------start home-----------------------------*/
 #wowslider-container1{
-  padding-top: 60px;
+  padding-top: 45px;
 }
 .home-second-wrapper{
   margin-top: 20px;
@@ -267,22 +265,30 @@ body{
 
 .home-image-logo{
   margin-bottom: 20px;
-  width: 100px;
+  width: 80px;
 }
 .home-video-wrapper{
   display: none;
 }
 
+
 /*-------------------------end home-----------------------------  */
 
 /*-------------------downloads ------------------------------------  */
 .downloads-page-wrapper{
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 .downloads-header{
   font-size: 1.8rem;
   margin-bottom: 30px;
+  text-align: center;
+}
+.downloads-header-2{
+  margin-top: 30px;
+}
+.downloads-header-3{
+  margin-top: 30px;
 }
 .downloads-item-wrapper{
   /* background-color: red; */
@@ -290,8 +296,8 @@ body{
   margin-bottom: 30px;
 }
 .downloads-image-wrapper{
-  /* width: 90%;
-  margin-left: 5%; */
+  width: 80%;
+  margin-left: 10%;
   /* background-color: red; */
 }
 .downloads-image-wrapper img{
@@ -302,12 +308,17 @@ body{
 .downloads-text-wrapper{
   /* margin-top: 10px; */
   /* margin-bottom: 10px; */
+  margin-left: 10%;
+  line-height:15px;
+  font-size: 1rem;
 }
+
 .download-link-wrapper{
   text-align: center;
 }
 .download-link-wrapper a{
    color:grey;
+   font-size: 0.9rem;
 }
 
 /*--------------------end downloads------------------------------------*/
@@ -316,28 +327,27 @@ body{
 /*----------------start about us---------------------------  */
 
 .aboutus-page-wrapper{
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 100px;
 }
 .aboutus-page-wrapper h1{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   /* font-weight: normal; */
 }
 .aboutus-page-wrapper h2{
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 .aboutus-page-wrapper h3{
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 .aboutus-page-wrapper p{
   font-size: 1rem;
 }
-
-.aboutus-company-quote{
-  font-size: 1rem;
-  text-align: center;
+.col-no-padding{
+    padding: 0px;
 }
+
 
 
 
@@ -351,12 +361,15 @@ body{
 }
 .aboutus-profile-text-wrapper{
   margin-top: 20px;
+  padding-left: 10px;
 }
 .aboutus-certificate-text-wrapper{
   margin-top: 20px;
+  padding-left: 10px;
 }
 .aboutus-certificate-text-wrapper a{
   color:black;
+  font-size: 0.85rem;
 }
 .aboutus-img-tiles-wrapper{
   margin-top: 20px;
@@ -368,8 +381,23 @@ body{
   border: solid white 1px;
 }
 
-/* ------------start products */
+.project-frame-wrapper{
+  position: relative;
+}
+.project-desc{
+  position:absolute;
+  right:0px;
+  bottom:20px;
+  background-color:white;
+  color:grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
+/* ------------start products */
+.products-page-wrapper{
+  padding-top: 50px;
+}
 .product-item-wrapper{
   margin-top: 20px;
   border: solid transparent 2px;
@@ -443,7 +471,9 @@ body{
 
 
 /*--------  home-automation ---------------*/
-
+.homeautomation-page-wrapper{
+  padding-top: 50px;
+}
 /*  home-automation */
 .homeautomation-header{
    width: 100%;
@@ -465,7 +495,7 @@ body{
 
 .homeautomation-img-wrapper{
   width: 40%;
-  margin-left: 5%;
+  margin-left: 6.6%;
   margin-top:10px;
 }
 .homeautomation-img-wrapper img{
@@ -474,6 +504,7 @@ body{
 
 .homeautomation-video-text-wrapper{
   margin-top: 30px;
+
 }
 .homeautomation-video-text-wrapper h2{
   font-size: 1.3rem;
@@ -485,7 +516,7 @@ body{
 
 /*-------------oem-header-wrapper  */
 .oem-page-wrapper{
-  padding-top: 80px;
+  padding-top: 50px;
   /* padding-bottom: 80px; */
 }
 
