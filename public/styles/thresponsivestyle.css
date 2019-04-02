@@ -47,7 +47,7 @@
   .steep-page-second-wrapper{
     margin-top:60px;
   }
-  
+
 
 }
 
@@ -65,13 +65,16 @@
     margin-top: 0px;
 
   }
+  .home-second-wrapper h2{
+    font-size: 1.3rem;
+  }
   .home-second-wrapper p{
-    font-size: 0.8rem;
+    font-size: 1.1rem;
 
   }
   .home-image-logo{
 
-    /* margin-bottom: 20px; */
+    margin-top: 20px;
     width: 150px;
   }
 
@@ -170,9 +173,16 @@
     padding-left: 80px;
   }
 
+  .home-second-wrapper h2{
+    font-size: 1.4rem;
+  }
   .home-second-wrapper p{
     font-size: 1rem;
   }
+  .home-image-logo{
+    margin-top: 0px;
+  }
+
 
   .downloads-page-wrapper{
     padding-top: 10px;

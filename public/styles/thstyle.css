@@ -245,8 +245,11 @@ body{
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.home-second-wrapper p{
+.home-second-wrapper h2{
   font-size: 1.1rem;
+}
+.home-second-wrapper p{
+  font-size: 0.9rem;
 }
 .home-product-quote div{
   padding-left: 10px;
@@ -271,6 +274,9 @@ body{
   display: none;
 }
 
+/* .japan-text{
+  font-size: 0.8rem !important;
+} */
 
 /*-------------------------end home-----------------------------  */
 

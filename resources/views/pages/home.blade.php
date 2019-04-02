@@ -44,10 +44,10 @@
 <!-- Start WOWSlider.com BODY section -->
 <div id="wowslider-container2" class="mobile-slider">
 <div class="ws_images"><ul>
-		<li><img src="images/home/mslider/data2/images/mslide1.jpg" alt="" title="" id="wows2_0"/></li>
-		<li><img src="images/home/mslider/data2/images/mslide2.jpg" alt="" title="" id="wows2_1"/></li>
-		<li><img src="images/home/mslider/data2/images/mslide3.jpg" alt="image slider" title="" id="wows2_2"/></li>
-		<li><img src="images/home/mslider/data2/images/mslide4.jpg" alt="" title="" id="wows2_3"/></li>
+		<li><img src="images/home/mslider/data2/images/mslide1.jpg?{{time()}}" alt="" title="" id="wows2_0"/></li>
+		<li><img src="images/home/mslider/data2/images/mslide2.jpg?{{time()}}" alt="" title="" id="wows2_1"/></li>
+		<li><img src="images/home/mslider/data2/images/mslide3.jpg?{{time()}}" alt="image slider" title="" id="wows2_2"/></li>
+		<li><img src="images/home/mslider/data2/images/mslide4.jpg?{{time()}}" alt="" title="" id="wows2_3"/></li>
 	</ul></div>
 	<div class="ws_bullets"><div>
 		<a href="#" title=""><span><img src="images/home/mslider/data2/tooltips/mslide1.jpg" alt=""/>1</span></a>
@@ -66,7 +66,7 @@
 <div class="container home-container-wrapper">
   <div class="row">
 
-    <div class="col-md-6">
+    <div class="col-lg-6">
 
           <!-- main tain 4:3 -->
           <div class="home-video-wrapper" style="position:relative;padding-top:75%;">
@@ -81,7 +81,7 @@
 
     </div>
 
-    <div class="col-md-6">
+    <div class="col-lg-6">
 
       <div class="home-second-wrapper">
 
@@ -89,12 +89,23 @@
                   <img style="width:100%;height:auto;" src="images/common/logo_black.png" />
             </div>
 
+            <p class="japan-text">
+              <strong>  @lang('home.japan1') </strong>
+              <br>
+              @lang('home.japan2')
+              <br>
+              @lang('home.japan3')
+              <br>
+              @lang('home.japan4')
+            </p>
+
+            <h2>@lang('home.textheader')</h2>
             <p>
               @lang('home.text1')
             </p>
-            <p style="font-weight:bold">
+            <!-- <p>
                 @lang('home.text2')
-            </p>
+            </p> -->
 
             <div class="d-flex home-product-quote">
                     <div class="ml-auto">
