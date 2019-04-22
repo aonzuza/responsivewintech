@@ -97,7 +97,7 @@
   }
 
   .oem-page-wrapper{
-    padding-top: 50px;
+    padding-top: 0px;
     /* padding-bottom: 80px; */
   }
   .oem-text-wrapper{
@@ -120,7 +120,7 @@
     max-width: 400px;
 }
   .steeldoor-page-wrapper{
-    padding-top: 20px;
+    padding-top: 0px;
   }
   .steep-page-second-wrapper{
     margin-top:80px;
@@ -189,7 +189,7 @@
   }
 
   .residentiallock-page-wrapper{
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
 
   .homeautomation-img-wrapper{

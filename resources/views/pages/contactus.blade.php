@@ -138,10 +138,10 @@
                     </div>
                     <div class="d-flex google-map-link-wrapper">
                          <div class="flex-even text-center" style="border-left:solid #202b62 2px;">
-                           <a style="color:#202b62" href="../images/contactus/WINTECHMFC_MAP.pdf" target="_blank" >@lang('contactus.googlemap')</a>
+                           <a style="color:#202b62" href="{{asset('images/contactus/WINTECHMFC_MAP.pdf')}}" target="_blank" >@lang('contactus.googlemap')</a>
                          </div>
                          <div class="flex-even text-center" style="border-left:solid #202b62 2px;border-right:solid #202b62 2px;">
-                           <a style="color:#202b62" href="../images/contactus/WINTECHMFC_MAP.pdf" download="WINTECHMFCMAP" target="_blank" >@lang('contactus.downloadpdf')</a>
+                           <a style="color:#202b62" href="{{asset('images/contactus/WINTECHMFC_MAP.pdf')}}" download="WINTECHMFCMAP" target="_blank" >@lang('contactus.downloadpdf')</a>
                          </div>
                     </div>
 

@@ -8,6 +8,10 @@ body{
   margin-top: 40px;
 } */
 
+.no-decoration:hover{
+  text-decoration: none;
+}
+
 .flex-even {
   flex: 1;
 }
@@ -401,6 +405,9 @@ body{
 }
 
 /* ------------start products */
+.product-header-img-wrapper{
+  margin-bottom: 40px;
+}
 .products-page-wrapper{
   padding-top: 50px;
 }
@@ -424,7 +431,7 @@ body{
 /*---------------start residential lock--------------  */
 
 .residentiallock-page-wrapper{
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 .residentiallock-page-wrapper h2{
   font-size: 1.4rem;
@@ -555,11 +562,12 @@ body{
 
 /*---------steel door -------- */
 .steeldoor-page-wrapper{
-  padding-top: 80px;
+  /* padding-top: 80px; */
   padding-bottom: 80px;
 }
 .steeldoor-second-row-wrapper{
-  padding-top: 40px;
+  padding-top: 0px;
+  padding-bottom: 30px;
 }
 .steepdoor-second-text-wrapper{
   padding-top: 20px;

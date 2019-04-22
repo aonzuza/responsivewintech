@@ -2,7 +2,7 @@
 
 /**
  * Created by Reliese Model.
- * Date: Fri, 15 Mar 2019 07:03:17 +0000.
+ * Date: Fri, 12 Apr 2019 03:31:36 +0000.
  */
 
 namespace App\Models;
@@ -17,6 +17,7 @@ use Reliese\Database\Eloquent\Model as Eloquent;
  * @property int $subgroupID
  * @property string $groupName_TH
  * @property string $groupName_EN
+ * @property string $headerimg
  *
  * @package App\Models
  */
@@ -35,6 +36,7 @@ class Productgroup extends Eloquent
 		'groupID',
 		'subgroupID',
 		'groupName_TH',
-		'groupName_EN'
+		'groupName_EN',
+		'headerimg'
 	];
 }

@@ -5,13 +5,18 @@
 
 <div class="steeldoor-page-wrapper">
 
-      <div class="steeldoor-first-row-wrapper">
+      <!-- <div class="steeldoor-first-row-wrapper">
 
             <div class="steepdoor-page-first-wrapper">
 
                   <img style="width:100%;height:auto;" src="https://dummyimage.com/1920x980/" />
 
             </div>
+
+      </div> -->
+      <div class="product-header-img-wrapper">
+
+          <img style="width:100%;height:auto" src="{{asset('images/products/product_header/panic_door.jpg').'?'.time()}}" />
 
       </div>
 

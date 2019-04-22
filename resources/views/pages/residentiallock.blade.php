@@ -5,6 +5,12 @@
 
 <div class="residentiallock-page-wrapper">
 
+      <div class="product-header-img-wrapper">
+
+          <img style="width:100%;height:auto" src="{{asset('images/products/product_header/residential_door_lock.jpg').'?'.time()}}" />
+
+      </div>
+
         <div class="residentiallock-first-wrapper">
 
               <div class="container">

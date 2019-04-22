@@ -5,11 +5,16 @@
 
 <div class="homeautomation-page-wrapper">
 
-  <div class="homeautomation-wrapper">
+  <!-- <div class="homeautomation-wrapper">
 
     <div class="homeautomation-header">
           <img style="width:100%;height:auto;" src="https://dummyimage.com/800x400/" />
     </div>
+  </div> -->
+  <div class="product-header-img-wrapper">
+
+      <img style="width:100%;height:auto" src="{{asset('images/products/product_header/home_automation.jpg').'?'.time()}}" />
+
   </div>
 
   <div class="video-section-wrapper">

@@ -6,11 +6,50 @@
 
 <div class="products-page-wrapper">
 
-      <div class="product-first-wrapper">
+      <div class="product-first-wrapper product-header-img-wrapper">
 
-          <img style="width:100%;height:auto" src="{{asset('images/products/product_head.png')}}" />
+          <!-- <img style="width:100%;height:auto" src="{{asset('images/products/product_head.png')}}" /> -->
+
+          <img style="width:100%;height:auto" src="{{asset('images/products/product_header').'/'.$headerImg.'?'.time()}}" />
 
       </div>
+
+      @IF($isSteelDoor)
+
+
+      <div class="steeldoor-second-row-wrapper">
+        <div class="container-fluid">
+
+              <div class="row">
+
+                    <div class="col-md-6">
+
+                          <div class="steeldoor-second-img-wrapper">
+                                <img style="width:100%;height:auto;" src="https://dummyimage.com/850x980/" />
+                          </div>
+
+                    </div>
+                    <div class="col-md-6">
+
+                            <div class="steepdoor-second-text-wrapper d-md-flex align-items-center">
+
+                                <p class="lead">
+                                  @lang('steeldoor.text')
+                                </p>
+
+
+                            </div>
+
+                    </div>
+
+              </div>
+
+        </div>
+
+
+
+      </div>
+      @endif
 
       <div class="product-second-wrapper">
 
