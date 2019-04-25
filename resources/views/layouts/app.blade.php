@@ -29,6 +29,9 @@
     @if(Session::get('locale') == 'en')
     <link href="https://fonts.googleapis.com/css?family=Gothic+A1:300,400,500,600,700" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+
+
     <link rel="stylesheet" href="{{ asset('styles/enstyle.css') }}" >
     <link rel="stylesheet" href="{{ asset('styles/enresponsivestyle.css') }}" >
     @endif

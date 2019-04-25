@@ -24,12 +24,12 @@ class ProductsController extends Controller
         $group= Productgroup::whereIn('ID',$groupIDs)->where('headerimg','<>','')->first();
         $headerImg = $group->headerimg;
 
-        $isSteelDoor = in_array ( 32, $groupIDs , false );
+        // $isSteelDoor = in_array ( 32, $groupIDs , false );
         // $isSteelDoor = true;
 
-        return view('pages/products')->with('products',$products)
-                                     ->with('headerImg',$headerImg)
-                                     ->with('isSteelDoor',$isSteelDoor);
+        return view('pages/products')->with('groupIDs',$groupIDs)
+                                     ->with('products',$products)
+                                     ->with('headerImg',$headerImg);
 
     }
 }

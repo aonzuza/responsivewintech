@@ -14,42 +14,7 @@
 
       </div>
 
-      @IF($isSteelDoor)
 
-
-      <div class="steeldoor-second-row-wrapper">
-        <div class="container-fluid">
-
-              <div class="row">
-
-                    <div class="col-md-6">
-
-                          <div class="steeldoor-second-img-wrapper">
-                                <img style="width:100%;height:auto;" src="https://dummyimage.com/850x980/" />
-                          </div>
-
-                    </div>
-                    <div class="col-md-6">
-
-                            <div class="steepdoor-second-text-wrapper d-md-flex align-items-center">
-
-                                <p class="lead">
-                                  @lang('steeldoor.text')
-                                </p>
-
-
-                            </div>
-
-                    </div>
-
-              </div>
-
-        </div>
-
-
-
-      </div>
-      @endif
 
       <div class="product-second-wrapper">
 
@@ -89,7 +54,49 @@
           <!-- end container -->
 
 
-</div>
+        </div>
+      </div>
+
+
+
+
+      <!-- id = 32  steel door section -->
+      <!-- <div class="steeldoor-second-row-wrapper">
+        <div class="container-fluid">
+
+              <div class="row">
+
+                    <div class="col-md-6">
+
+                          <div class="steeldoor-second-img-wrapper">
+                                <img style="width:100%;height:auto;" src="https://dummyimage.com/850x980/" />
+                          </div>
+
+                    </div>
+                    <div class="col-md-6">
+
+                            <div class="steepdoor-second-text-wrapper d-md-flex align-items-center">
+
+                                <p class="lead">
+                                  @lang('steeldoor.text')
+                                </p>
+
+
+                            </div>
+
+                    </div>
+
+              </div>
+
+        </div>
+
+
+
+      </div> -->
+      @IF(in_array ( 41, $groupIDs , false ))
+      <!--  residential section -->
+          @include('inc.residential')
+      @endif
 
 
 
@@ -119,6 +126,8 @@
   </div>
 </div>
 
+</div>
+
 @endsection
 
 
@@ -131,8 +140,7 @@ $(window).resize(function() {
 });
 
 
-$(document).ready(function(){
-
+$(document).ready(function(e) {
 
 
       resizeProductItems();
@@ -153,12 +161,18 @@ $(document).ready(function(){
 });
 
 function resizeProductItems(){
+  console.log('start resize');
 
   $('.product-image-wrapper img').height('auto');
   var minHeight = $('.product-image-wrapper img').eq(0).height();
+  if(minHeight == 0){
+      resizeProductItems();
+  }
+  else{
+      $('.product-image-wrapper img').height(minHeight);
+  }
 
-  $('.product-image-wrapper img').height(minHeight);
-
+  console.log('end resize. Min height is ' + minHeight);
 }
 
 

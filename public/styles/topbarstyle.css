@@ -27,6 +27,7 @@
 .multi-column-dropdown {
 	list-style: none;
   margin: 0px;
+	padding-left: 20px;
   /* padding: 0px; */
 }
 

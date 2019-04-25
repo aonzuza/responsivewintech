@@ -4,7 +4,7 @@
   <!-- company info -->
   <div id="topbar-company-info" class="d-lg-flex" style="padding-left:25px;padding-top:20px;">
     <div class="mr-auto">
-        <a href="home">
+        <a href="{{asset('home')}}">
             <img class="top-bar-logo" src="{{ asset('images/common/logo_black.png') }}" />
         </a>
     </div>
@@ -42,7 +42,8 @@
            <div class="row">
              <div class="col-sm-12">
                <ul class="multi-column-dropdown">
-                 <li><a href="{{asset('aboutus?area=company-profile-section-lg')}}">@lang('footer.profile') </a></li>
+                 <!-- <li><a href="{{asset('aboutus?area=company-profile-section-lg')}}">@lang('footer.profile') </a></li> -->
+                 <li><a href="{{asset('aboutus')}}">@lang('footer.profile') </a></li>
                  <li><a href="{{asset('aboutus?area=certificate-section')}}">@lang('footer.certificates')</a></li>
                  <li><a href="{{asset('aboutus?area=project-section')}}">@lang('footer.projects')</a></li>
                </ul>
@@ -61,7 +62,8 @@
                  <ul class="multi-column-dropdown">
                    <li><a href="{{asset('products/2')}}">@lang('topbar.knobset') </a></li>
                    <li><a href="{{asset('products/3,4,5')}}">@lang('topbar.mortiselock')</a></li>
-                   <li><a href="{{asset('residentiallock')}}">@lang('topbar.digitalresidentiallock')</a></li>
+                   <!-- <li><a href="{{asset('residentiallock')}}">@lang('topbar.digitalresidentiallock')</a></li> -->
+                   <li><a href="{{asset('products/41')}}">@lang('topbar.digitalresidentiallock')</a></li>
                    <li><a href="{{asset('products/6,7,8,9,10')}}">@lang('topbar.digitalhoteldoorlock')</a></li>
                    <li><a href="{{asset('products/11')}}">@lang('topbar.hinge')</a></li>
                    <li><a href="{{asset('products/13')}}">@lang('topbar.bolt')</a></li>

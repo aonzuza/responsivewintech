@@ -6,7 +6,8 @@
                 <a href="#about-submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">@lang('footer.company')</a>
                 <ul class="collapse list-unstyled slide-submenu" id="about-submenu">
                     <li>
-                        <a href="{{asset('aboutus?area=company-profile-section-sm')}}">@lang('footer.profile')</a>
+                        <!-- <a href="{{asset('aboutus?area=company-profile-section-sm')}}">@lang('footer.profile')</a> -->
+                        <a href="{{asset('aboutus')}}">@lang('footer.profile')</a>
                     </li>
                     <li>
                         <a href="{{asset('aboutus?area=certificate-section')}}">@lang('footer.certificates')</a>
@@ -21,7 +22,10 @@
                 <ul class="collapse list-unstyled slide-submenu" id="product-submenu">
                       <li><a href="{{asset('products/2')}}">@lang('topbar.knobset') </a></li>
                       <li><a href="{{asset('products/3,4,5')}}">@lang('topbar.mortiselock')</a></li>
-                      <li><a href="{{asset('residentiallock')}}">@lang('topbar.digitalresidentiallock')</a></li>
+
+                      <!-- <li><a href="{{asset('residentiallock')}}">@lang('topbar.digitalresidentiallock')</a></li> -->
+                      <li><a href="{{asset('products/41')}}">@lang('topbar.digitalresidentiallock')</a></li>
+
                       <li><a href="{{asset('products/6,7,8,9,10')}}">@lang('topbar.digitalhoteldoorlock')</a></li>
                       <li><a href="{{asset('products/11')}}">@lang('topbar.hinge')</a></li>
                       <li><a href="{{asset('products/13')}}">@lang('topbar.bolt')</a></li>

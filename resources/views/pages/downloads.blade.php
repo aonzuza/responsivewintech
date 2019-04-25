@@ -53,7 +53,8 @@
                               <!-- content  -->
                               <div class="downloads-item-wrapper mx-auto">
                                 <div class="downloads-image-wrapper">
-                                  <img src="images/downloads/{{$item->image}}?{{time()}}" alt=""  />
+                                  <!-- <img src="images/downloads/{{$item->image}}?{{time()}}" alt=""  /> -->
+                                  <img src="images/downloads/{{$item->image}}" alt=""  />
                                 </div>
                                 <div class="downloads-text-wrapper">
                                   <span>

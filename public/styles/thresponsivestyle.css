@@ -101,15 +101,13 @@
     /* padding-bottom: 80px; */
   }
   .oem-text-wrapper{
-      margin-top: 40px;
+
+      /* margin-top: 40px;
       width: 50%;
-      /* width:490px; */
-      /* text-align: right; */
       margin-bottom: 80px;
       background-color: #dcdbdb;
-      /* padding: 80px 40px; */
       padding: 50px 30px 50px 90px;
-      font-size: 0.9rem;
+      font-size: 0.9rem; */
   }
 .oem-text-wrapper p{
     /* text-align: left;
@@ -117,7 +115,7 @@
     max-width: 200px; */
     /* max-width: 200px; */
     /* background-color: red; */
-    max-width: 400px;
+    /* max-width: 400px; */
 }
   .steeldoor-page-wrapper{
     padding-top: 0px;
@@ -205,6 +203,11 @@
 
   .homeautomation-img-wrapper{
     width: 20%;
+  }
+
+
+  .oem-text-wrapper{
+    padding-top: 0px;
   }
 
 

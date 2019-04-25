@@ -25,7 +25,8 @@
       </div>
       <div class="footer-second-col footer-col">
           <div>
-              <a href="{{asset('aboutus?area=company-profile-section-lg')}}"> @lang('footer.company')</a>
+              <!-- <a href="{{asset('aboutus?area=company-profile-section-lg')}}"> @lang('footer.company')</a> -->
+              <a href="{{asset('aboutus')}}"> @lang('footer.company')</a>
           </div>
           <div>
               <a href="{{asset('aboutus?area=certificate-section')}}"> @lang('footer.certificates')</a>
@@ -49,7 +50,8 @@
               <a href="{{asset('products/3,4,5')}}">@lang('footer.mortiselock')</a>
           </div>
           <div>
-              <a href="{{asset('residentiallock')}}">@lang('footer.digitalresidentiallock')</a>
+              <!-- <a href="{{asset('residentiallock')}}">@lang('footer.digitalresidentiallock')</a> -->
+              <a href="{{asset('products/41')}}">@lang('footer.digitalresidentiallock')</a>
           </div>
           <div>
               <a href="{{asset('products/6,7,8,9,10')}}">@lang('footer.digitalhoteldoorlock')</a>
@@ -84,7 +86,8 @@
               <a href="{{asset('products/30,31')}}">@lang('footer.pullhandleforglassdoor')</a>
           </div>
           <div>
-              <a href="{{asset('steeldoor')}}">@lang('footer.panicdoor')</a>
+              <a href="{{asset('products/32,33,34,35,36')}}">@lang('footer.panicdoor')</a>
+              <!-- <a href="{{asset('steeldoor')}}">@lang('footer.panicdoor')</a> -->
           </div>
 
       </div>
@@ -93,7 +96,7 @@
             <a href="{{asset('products/39')}}">@lang('footer.wheelrail')</a>
         </div>
         <div>
-            <a href="{{asset('products/38')}}">@lang('footer.padlock')</a>
+            <a href="{{asset('products/37,38')}}">@lang('footer.padlock')</a>
         </div>
 
         <div>

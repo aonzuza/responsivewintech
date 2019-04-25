@@ -26,12 +26,15 @@
         <li><img src="images/home/slider/data1/images/slide3.jpg?{{time()}}" alt="Slide3" title="Slide3" id="wows1_2"/></li>
         <li><img src="images/home/slider/data1/images/slide4.jpg?{{time()}}" alt="Slide4" title="Slide4" id="wows1_2"/></li>
     </ul></div>
-    <div class="ws_bullets"><div>
+    <!-- <div class="ws_bullets">
+    <div>
         <a href="#" title="slide1"><span><img src="images/home/slider/data1/tooltips/slide1.jpg?{{time()}}" alt="slide5"/>1</span></a>
         <a href="#" title="Slide2"><span><img src="images/home/slider/data1/tooltips/slide2.jpg?{{time()}}" alt="Slide2"/>2</span></a>
         <a href="#" title="Slide3"><span><img src="images/home/slider/data1/tooltips/slide3.jpg?{{time()}}" alt="Slide3"/>3</span></a>
         <a href="#" title="Slide4"><span><img src="images/home/slider/data1/tooltips/slide4.jpg?{{time()}}" alt="Slide4"/>4</span></a>
-    </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a></div>
+    </div>
+    </div> -->
+    <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a></div>
 <div class="ws_shadow"></div>
 </div>
 <script type="text/javascript" src="images/home/slider/engine1/wowslider.js"></script>
@@ -43,18 +46,23 @@
 <!-- mobile section -->
 <!-- Start WOWSlider.com BODY section -->
 <div id="wowslider-container2" class="mobile-slider">
-<div class="ws_images"><ul>
+<div class="ws_images">
+  <ul>
 		<li><img src="images/home/mslider/data2/images/mslide1.jpg?{{time()}}" alt="" title="" id="wows2_0"/></li>
 		<li><img src="images/home/mslider/data2/images/mslide2.jpg?{{time()}}" alt="" title="" id="wows2_1"/></li>
 		<li><img src="images/home/mslider/data2/images/mslide3.jpg?{{time()}}" alt="image slider" title="" id="wows2_2"/></li>
 		<li><img src="images/home/mslider/data2/images/mslide4.jpg?{{time()}}" alt="" title="" id="wows2_3"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title=""><span><img src="images/home/mslider/data2/tooltips/mslide1.jpg" alt=""/>1</span></a>
-		<a href="#" title=""><span><img src="images/home/mslider/data2/tooltips/mslide2.jpg" alt=""/>2</span></a>
-		<a href="#" title=""><span><img src="images/home/mslider/data2/tooltips/mslide3.jpg" alt=""/>3</span></a>
-		<a href="#" title=""><span><img src="images/home/mslider/data2/tooltips/mslide4.jpg" alt=""/>4</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"></div>
+	</ul>
+</div>
+<!-- <div class="ws_bullets">
+<div>
+    <a href="#" title="slide1"><span><img src="images/home/slider/data1/tooltips/slide1.jpg?{{time()}}" alt="slide5"/>1</span></a>
+    <a href="#" title="Slide2"><span><img src="images/home/slider/data1/tooltips/slide2.jpg?{{time()}}" alt="Slide2"/>2</span></a>
+    <a href="#" title="Slide3"><span><img src="images/home/slider/data1/tooltips/slide3.jpg?{{time()}}" alt="Slide3"/>3</span></a>
+    <a href="#" title="Slide4"><span><img src="images/home/slider/data1/tooltips/slide4.jpg?{{time()}}" alt="Slide4"/>4</span></a>
+</div>
+</div> -->
+<div class="ws_script" style="position:absolute;left:-99%"></div>
 <div class="ws_shadow"></div>
 </div>
 <script type="text/javascript" src="images/home/mslider/engine2/wowslider.js"></script>
@@ -71,7 +79,7 @@
           <!-- main tain 4:3 -->
           <div class="home-video-wrapper" style="position:relative;padding-top:75%;">
 
-              <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/fm8ylLLV5dQ" frameborder="0"
+              <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/nGoKfgK6lwY" frameborder="0"
 
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
@@ -89,6 +97,12 @@
                   <img style="width:100%;height:auto;" src="images/common/logo_black.png" />
             </div>
 
+
+            <h2>@lang('home.textheader')</h2>
+            <p class="english-text">
+              @lang('home.text1')
+            </p>
+
             <p class="japan-text">
               <strong>  @lang('home.japan1') </strong>
               <br>
@@ -99,10 +113,7 @@
               @lang('home.japan4')
             </p>
 
-            <h2>@lang('home.textheader')</h2>
-            <p>
-              @lang('home.text1')
-            </p>
+
             <!-- <p>
                 @lang('home.text2')
             </p> -->

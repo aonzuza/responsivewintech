@@ -277,7 +277,12 @@ body{
 .home-video-wrapper{
   display: none;
 }
-
+.japan-text{
+  text-align: justify;
+}
+.english-text{
+  text-align: justify;
+}
 /* .japan-text{
   font-size: 0.8rem !important;
 } */
@@ -432,6 +437,7 @@ body{
 
 .residentiallock-page-wrapper{
   /* padding-top: 80px; */
+  font-family: Kanit;
 }
 .residentiallock-page-wrapper h2{
   font-size: 1.4rem;
@@ -530,17 +536,17 @@ body{
 /*-------------oem-header-wrapper  */
 .oem-page-wrapper{
   padding-top: 50px;
-  /* padding-bottom: 80px; */
+  padding-bottom: 80px;
 }
 
 .oem-header-wrapper{
   /* padding-top: 80px; */
 }
 .oem-text-wrapper{
-
+   padding-top: 40px;
   /* height: 500px; */
-  padding: 20px 40px;
-  width: 100%;
+  /* padding: 20px 40px; */
+  /* width: 100%; */
   /* margin-top: 40px; */
 }
 

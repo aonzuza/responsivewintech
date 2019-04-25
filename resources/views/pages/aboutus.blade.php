@@ -37,7 +37,7 @@
 
             <div class="aboutus-profile-text-wrapper">
 
-              <!-- <h2 class="d-none d-lg-block company-profile-section-lg">@lang('aboutus.companyheader')</h2> -->
+
               <h2 class="d-none d-lg-block company-profile-section-lg">@lang('aboutus.companyquote')</h2>
               <h2>@lang('aboutus.companysubheader')</h2>
               <p>
