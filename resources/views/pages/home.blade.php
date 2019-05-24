@@ -79,7 +79,7 @@
           <!-- main tain 4:3 -->
           <div class="home-video-wrapper" style="position:relative;padding-top:75%;">
 
-              <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/nGoKfgK6lwY" frameborder="0"
+              <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/nGoKfgK6lwY?autoplay=1&mute=1" frameborder="0"
 
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 

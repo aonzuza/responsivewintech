@@ -6,7 +6,7 @@ body{
   /* font-family: 'Gothic A1', sans-serif; */
   font-family: 'Montserrat', sans-serif;
 
-  font-weight:500;
+  font-weight:400;
 }
 
 /*------------------top bar--------------------------  */
@@ -36,3 +36,6 @@ body{
 .contactus-tb-company h2{
   font-size: 1.0rem;
 } */
+.aboutus-profile-text-wrapper{
+  line-height: 1.4rem;
+}

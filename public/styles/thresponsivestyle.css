@@ -45,7 +45,7 @@
   }
 
   .steep-page-second-wrapper{
-    margin-top:60px;
+    /* margin-top:60px; */
   }
 
 
@@ -121,7 +121,7 @@
     padding-top: 0px;
   }
   .steep-page-second-wrapper{
-    margin-top:80px;
+    /* margin-top:80px; */
   }
 
   .steeldoor-second-row-wrapper{
@@ -150,6 +150,10 @@
     /* margin-top: 30px; */
     display: block;
     margin-top: 30px;
+  }
+
+  .copyright{
+    font-weight: 200;
   }
 
   .footer-wrapper{
@@ -222,7 +226,7 @@
   }
 
   .steep-page-second-wrapper{
-    margin-top:140px;
+    /* margin-top:140px; */
   }
 
   .steepdoor-second-text-wrapper{
@@ -251,6 +255,8 @@
   .aboutus-profile-text-wrapper{
     padding-left: 60px;
     margin-top: 0px;
+    max-width: 530px;
+    text-align: justify;
   }
 
   .certificate-link-wrapper-left{
@@ -272,6 +278,11 @@
   }
   .aboutus-certificate-text-wrapper{
     margin-top: 0px;
+    text-align: justify;
+
+    max-width: 515px;
+    /* background-color: red; */
+    /* margin-right: auto; */
   }
   .certificate-section{
     margin-top: 50px;
@@ -283,5 +294,12 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+    .steep-page-second-wrapper{
+      max-width: 920px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .steep-page-second-wrapper p{
+      font-size: 1.2rem;
+    }
  }

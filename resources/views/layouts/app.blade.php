@@ -101,5 +101,6 @@
 
   @include('inc.footer')
   @include('inc.mobile.footer')
+  @include('inc.copyright')
 
 </html>

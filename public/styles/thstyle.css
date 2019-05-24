@@ -8,6 +8,11 @@ body{
   margin-top: 40px;
 } */
 
+.container-100vh{
+  height: 100vh;
+  /* background-color: red; */
+}
+
 .no-decoration:hover{
   text-decoration: none;
 }
@@ -89,6 +94,17 @@ body{
 }
 
 /*  end mobile topbar */
+
+/*  copy right */
+.copyright{
+  background-color: #0e1b2b;
+  color:white;
+  font-size: 0.7rem;
+  /* font-weight: 200; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
 
 /* footer  */
 
@@ -562,10 +578,12 @@ body{
 
 .steep-page-second-wrapper{
   width: 100%;
-  margin-top: 50px;
+  margin-top: 80px;
   height: auto;
 }
-
+.steep-page-second-wrapper p{
+  text-align: justify;
+}
 /*---------steel door -------- */
 .steeldoor-page-wrapper{
   /* padding-top: 80px; */

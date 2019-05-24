@@ -39,7 +39,11 @@
 
 
               <h2 class="d-none d-lg-block company-profile-section-lg">@lang('aboutus.companyquote')</h2>
-              <h2>@lang('aboutus.companysubheader')</h2>
+
+              @if(Session::get('locale') != 'en' )
+                      <h2>@lang('aboutus.companysubheader')</h2>
+              @endif
+
               <p>
                   @lang('aboutus.companydetails1')
               </p>
@@ -50,6 +54,12 @@
                   @lang('aboutus.companydetails2')
               </p>
 
+            </div>
+
+            <div class="text-center">
+              <a class="btn btn-outline-secondary" href="http://www.miwalock.com" target="_blank">
+                @lang('aboutus.miwalock')
+              </a>
             </div>
 
 
@@ -164,6 +174,7 @@
     </div>
   </div>
 </div>
+
 
 
 <!--  start projects -->
